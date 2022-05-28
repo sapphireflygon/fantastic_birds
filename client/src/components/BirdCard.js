@@ -1,0 +1,1 @@
+// child component of InfoContainer.js

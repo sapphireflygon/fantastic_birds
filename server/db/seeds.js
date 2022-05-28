@@ -1,6 +1,6 @@
 // dummy data to reference
 
-const birds = [
+const birdsList = [
     {
         id: 1,
         name: "Robin",
@@ -30,3 +30,5 @@ const birds = [
         feetinfo: "Sharp claws for hunting mice"
     }
 ]
+
+export default birdsList;
