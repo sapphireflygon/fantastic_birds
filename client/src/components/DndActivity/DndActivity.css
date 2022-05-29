@@ -1,0 +1,43 @@
+.drag-n-drop {
+    padding: 0.5rem;
+    display: grid;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 200px); /* 300px determines the width of each column */
+    align-items: flex-start;
+}
+
+.group-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.dnd-group {
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.dnd-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    min-height: 75px;
+    border-radius: 5px;
+}
+
+.dnd-item:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+/* anything inside of Item element will have this styling */
+.dnd-item * {
+    margin: 0;
+}
+
+.current {
+    background-color: #909090;
+}
