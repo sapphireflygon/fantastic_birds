@@ -9,12 +9,12 @@ const DndComponent = ({data}) => {
     const [list, setList] = useState(data);
     const [dragging, setDragging] = useState(false);
 
-    const dragItem = useRef();
-    const dragNode = useRef(); // create ref of specific node we're dragging
+    const dragItem = useRef(); // create ref of item being dragged
+    const dragNode = useRef(); // create ref of specific node we're dragging over
 
     const handleDragStart = (event, params) => {
         dragItem.current = params; // params = object groupIndex value, itemIndex value
-        dragNode.current = event.target; // set dragNode to the node/item that we're dragging
+        dragNode.current = event.target; // set dragNode to the node/item that we're dragging over
         dragNode.current.addEventListener('dragend', handleDragEnd) // add event listener to the current node, can't just add 'onDragEnd=handleDragEnd' in the actual render the way we did for the drag start because can get unexpected behaviours
         setTimeout(()=> {
             setDragging(true);
