@@ -1,0 +1,19 @@
+#svg_001 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 1.5;
+    stroke: black;
+    stroke-width: 8px;
+    stroke-linecap: "round";
+    stroke-dashoffset: "0";
+}
+
+#color-box {
+    display: flex;
+    border : solid 1px;
+    width : auto;
+    justify-content: center;
+    
+}
