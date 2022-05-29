@@ -6,27 +6,50 @@ const DndMain = () => {
 
     const data = [
         {
-            title: "group 1",
+            title: "Foods",
             items: [
-                '1', '2', '3'
+                "bugs", 
+                "berries",
+                "algae",
+                "small fish",
+                "medium fish",
+                "big fish",
+                "worms",
+                "seeds",
+                "mice",
+                "squirrels"
             ]
         },
         {
-            title: "group 2",
-            items: [
-                '4', '5', '6', '7'
-            ]
+            title: "Robin",
+            items: []
         },
         {
-            title: "group 3",
-            items: [
-                '8', '9', '10'
-            ]
+            title: "Owl",
+            items: []
+        },
+        {
+            title: "Penguin",
+            items: []
+        },
+        {
+            title: "Duck",
+            items: []
+        },
+        {
+            title: "Peacock",
+            items: []
+        },
+        {
+            title: "Pelican",
+            items: []
         }
     ]
 
     return (
         <div className='dnd-main'>
+            <h1>Who Eats What?</h1>
+            <h3>Drag the food from the list to the bird that eats that food</h3>
             <DndComponent data={data} />
         </div>
     )
