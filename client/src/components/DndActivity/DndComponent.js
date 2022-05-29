@@ -13,7 +13,6 @@ const DndComponent = ({data}) => {
     const dragNode = useRef(); // create ref of specific node we're dragging
 
     const handleDragStart = (event, params) => {
-        console.log("drag starting...", params);
         dragItem.current = params; // params = object groupIndex value, itemIndex value
         dragNode.current = event.target; // set dragNode to the node/item that we're dragging
         dragNode.current.addEventListener('dragend', handleDragEnd) // add event listener to the current node, can't just add 'onDragEnd=handleDragEnd' in the actual render the way we did for the drag start because can get unexpected behaviours
@@ -24,10 +23,8 @@ const DndComponent = ({data}) => {
 
     // function to handle when the item is being dragged over other cards/items; want all items to have this event listener, will fire at same time as the handleDragStart function and then subsequently fire every time the dragged item moves over any other item that can accept it  --> gets the item we're dragging AND the item we're dragging over
     const handleDragEnter = (event, params) => {
-        console.log("entering drag", params); 
         const currentItem = dragItem.current;
         if (event.target !== dragNode.current) { // checking if the item we're dragging is not the same as the item we're dragging over
-            console.log("target not the same!");
             setList(oldList => {
                 let newList = JSON.parse(JSON.stringify(oldList)) // creates a DEEEEEP cloned copy of the oldList --> using [...oldList] would make a shallow copy of the list  
                 newList[params.groupIndex] // in newList array, at index value of groupIndex...
@@ -40,7 +37,6 @@ const DndComponent = ({data}) => {
                             .items // access the ITEMS array of that GROUP...
                             .splice(currentItem.itemIndex, 1) // REMOVE ONE ITEM from the ITEMS array at the index of our currentItem
                                 [0]) // --> splice method RETURNS A NEW ARRAY, so if take the item at index 0 from the newly created array, we'll be able to get the currentItem back
-                console.log(dragItem.current)
                 dragItem.current = params;
                 return newList;
             })
@@ -48,7 +44,6 @@ const DndComponent = ({data}) => {
     };
 
     const handleDragEnd = () => {
-        console.log('drag ending...')
         setDragging(false); // change state to false to change the styling of the box back to original when dragging stops
         dragNode.current.removeEventListener('dragend', handleDragEnd) // remove event listener to make sure no weird behaviours as mentioned above
         dragItem.current = null; // remove current item from dragItem state
