@@ -5,7 +5,7 @@ import React from 'react';
 const ActivitiesContainer = () => {
     return (
         <>
-
+            
         </>
     )
 };
