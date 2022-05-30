@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { images } from "../PhotoMatchImg.js";
+import { images } from "./data/PhotoMatchImg.js";
 import '../PhotoMatchActivity.css'
 
 
