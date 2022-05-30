@@ -1,0 +1,17 @@
+fill = { fillColors[0]} onClick = { paintColor }
+fill = { fillColors[1]} onClick = { paintColor }
+fill = { fillColors[2]} onClick = { paintColor }
+fill = { fillColors[3]} onClick = { paintColor }
+fill = { fillColors[4]} onClick = { paintColor }
+fill = { fillColors[5]} onClick = { paintColor }
+fill = { fillColors[6]} onClick = { paintColor }
+fill = { fillColors[7]} onClick = { paintColor }
+fill = { fillColors[8]} onClick = { paintColor }
+fill = { fillColors[9]} onClick = { paintColor }
+fill = { fillColors[10]} onClick = { paintColor }
+fill = { fillColors[11]} onClick = { paintColor }
+fill = { fillColors[12]} onClick = { paintColor }
+fill = { fillColors[13]} onClick = { paintColor }
+fill = { fillColors[14]} onClick = { paintColor }
+fill = { fillColors[15]} onClick = { paintColor }
+fill = { fillColors[16]} onClick = { paintColor }
