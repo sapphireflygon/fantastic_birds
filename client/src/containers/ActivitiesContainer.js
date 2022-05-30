@@ -3,16 +3,18 @@ import React from "react";
 import PhotoMatchActivity from "../components/PhotoMatchActivity";
 import DndActivity from '../components/DndActivity';
 import OddOneOutActivity from "../components/OddOneOutActivity";
-import GameColoring from "../components/GameColoring";
 
 const ActivitiesContainer = () => {
     return (
         <>
+            <h1>Activities Container</h1>
+        <hr/>
             <div>
-                <PhotoMatchActivity />
+                {/* <PhotoMatchActivity /> */}
+                <p>Photo match activity here</p>
             </div>
         <hr/>
-            {/* <div>
+            <div>
                 <DndActivity />
             </div>
         <hr/>
@@ -20,9 +22,7 @@ const ActivitiesContainer = () => {
                 <OddOneOutActivity />
             </div>
         <hr/>
-            <div>
-                <GameColoring />
-            </div> */}
+            
         </>
     )
 }
