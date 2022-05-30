@@ -60,16 +60,16 @@ const data = [
     {
         id: 5,
         name: "Duck",
-        realimg: "irl pic",
+        realimg: "https://www.allaboutbirds.org/guide/assets/photo/308743051-480px.jpg",
         cartoonimg: "Emma's duck pic",
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "",
+        food: "aquatic plants",
         fly: true,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "webbed",
+        beaklength: "medium",
+        beakwidth: "medium",
+        feetinfo: "Great for swimming and diving"
     },
     {
         id: 6,
@@ -78,12 +78,12 @@ const data = [
         cartoonimg: "Emma's penguin pic",
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "whatever they eat",
+        food: "krill, squid, fish",
         fly: false,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "webbed",
+        beaklength: "meidum",
+        beakwidth: "medium",
+        feetinfo: "Location on the body causes penguins to walk standing up."
     }
 ]
 
