@@ -1,0 +1,87 @@
+.dnd-main {
+    text-align: center;
+    margin: 1rem;
+}
+
+.drag-n-drop {
+    padding: 0.5rem;
+    display: grid;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+    /* 200px below will determine the width of each column */
+    grid-template-columns: repeat(auto-fill, 150px); 
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* .drag-n-drop:not(:first-of-type) {
+    display: grid;
+    gap: 0.5rem;
+    width: 10%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 100px);
+} */
+
+.group-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.dnd-group {
+    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.dnd-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    min-height: 75px;
+    border-radius: 5px;
+}
+
+.dnd-item:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+/* anything inside of Item element will have this styling */
+.dnd-item * {
+    margin: 0;
+}
+
+.current {
+    background-color: #909090;
+}
+
+.pengu {
+    background-color: blue;
+}
+
+.robin {
+    background-color: red;
+}
+
+.peacock {
+    background-color: aquamarine;
+}
+
+.pelican {
+    background-color: orange;
+}
+
+.owl {
+    background-color: navy;
+    color: white;
+}
+
+.duck {
+    background-color: green;
+}

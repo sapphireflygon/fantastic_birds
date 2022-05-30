@@ -1,0 +1,51 @@
+.photoMatchMain {
+	text-align: center;
+	background-image: linear-gradient(rgba(251, 251, 251, 1), rgba(255, 187, 0, 0.5));
+	margin: 0;
+	padding: 0;
+	font-family: 'Patrick Hand', cursive;
+}
+    
+.photoMatchFlex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: rgb(255, 196, 0);
+	margin-right: 440px;
+	margin-left: 440px;
+	padding: 10px;
+}
+
+.image {
+	object-fit: cover;
+	height: 120px;
+	width: 130px;
+	margin: 0;
+	gap: 1rem 1rem;
+}
+
+.imageCard {
+    flex: 25%;
+    max-width: 25%;
+	column-gap: 0px;
+	row-gap: 0px;
+	margin: 0;
+	gap: 1rem 1rem;
+}
+
+.button {
+	background-color: rgb(26, 23, 0);
+	color: rgb(255, 255, 255);
+	font-family: 'Patrick Hand', cursive;
+	border-radius: 8px;
+	margin: 15px;
+	font-size: 15pt;
+}
+
+.button:hover{
+	background-color: rgb(255, 225, 0);
+	color: rgb(26, 23, 0);
+
+}

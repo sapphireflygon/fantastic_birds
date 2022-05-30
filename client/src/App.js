@@ -1,12 +1,30 @@
-
 import './Quiz.css';
 import Quiz from './components/QuizActivity';
+import './App.css';
+import ActivitiesContainer from "./containers/ActivitiesContainer";
+import React from 'react';
+import './components/OddOneOutActivity.css'
+import './components/Bird.css'
+import InfoContainer from './containers/InfoContainer';
+import GamesContainer from './containers/GamesContainer';
 
 function App() {
+
   return (
-    <div className="App">
-      <Quiz/>
-    </div>
+    <>
+      <div className="App">
+        <div>
+          <InfoContainer />
+        </div>
+        <div>
+          <ActivitiesContainer />
+          <Quiz/>
+        </div>
+        <div>
+          <GamesContainer />
+        </div>
+      </div>
+    </>
   );
 }
 
