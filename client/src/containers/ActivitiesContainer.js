@@ -11,8 +11,7 @@ const ActivitiesContainer = () => {
             <h1>Activities Container</h1>
         <hr/>
             <div>
-                {/* <PhotoMatchActivity /> */}
-                <p>Photo match activity here</p>
+                <PhotoMatchActivity />
             </div>
         <hr/>
             <div>
