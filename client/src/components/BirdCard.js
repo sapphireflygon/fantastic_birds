@@ -2,7 +2,6 @@
 import React from 'react'
 
 const BirdCard = ({bird}) => {
-    // console.log(bird)
 
     return (
         <div className='bird-card'>
