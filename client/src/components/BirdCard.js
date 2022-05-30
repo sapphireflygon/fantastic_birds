@@ -6,8 +6,14 @@ const BirdCard = ({bird}) => {
 
     return (
         <div className='bird-card'>
-            <h4>Bird name: {bird.name}</h4>
-            <img src={bird.cartoonimg} alt={bird.name} />
+            <div className='flip-card-inner'>
+                <div className='flip-card-front'>
+                    <img src={bird.cartoonimg} alt={bird.name} />
+                </div>
+                <div className='flip-card-back'>
+                    <h4>Bird name: {bird.name}</h4>
+                </div>
+            </div>
         </div>
     )
 }

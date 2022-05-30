@@ -14,9 +14,10 @@ const BirdCardList = () => {
 
     return (
         <div className='bird-card-list-container'>
-            <p>Bird card list here</p>
-            <div className='bird-card-list'>
-            {birdsList}
+            <div className='bird-card-list--grid'>
+                <div className='bird-card-list flip-card'>
+                    {birdsList}
+                </div>
             </div>
         </div>
     )
