@@ -3,6 +3,7 @@ import React from "react";
 import PhotoMatchActivity from "../components/PhotoMatchActivity";
 import DndActivity from '../components/DndActivity';
 import OddOneOutActivity from "../components/OddOneOutActivity";
+import Quiz from '../components/QuizActivity';
 
 const ActivitiesContainer = () => {
     return (
@@ -12,6 +13,10 @@ const ActivitiesContainer = () => {
             <div>
                 {/* <PhotoMatchActivity /> */}
                 <p>Photo match activity here</p>
+            </div>
+        <hr/>
+            <div>
+                <Quiz />
             </div>
         <hr/>
             <div>
