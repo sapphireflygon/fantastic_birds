@@ -1,13 +1,16 @@
 // contains the ActivityNav.js and the selected Activity.js
+import React from "react";
+import PhotoMatchActivity from "../components/PhotoMatchActivity";
 
-import React from 'react';
 
-const ActivitiesContainer = () => {
-    return (
+const ActivitiesContainer = () =>{
+
+
+    return(
         <>
-
+            <PhotoMatchActivity></PhotoMatchActivity>
         </>
     )
-};
+}
 
-export default ActivitiesContainer;
+export default ActivitiesContainer
