@@ -1,3 +1,5 @@
+import './Quiz.css';
+import Quiz from './components/QuizActivity';
 import './App.css';
 import ActivitiesContainer from "./containers/ActivitiesContainer";
 import React from 'react';
@@ -16,6 +18,7 @@ function App() {
         </div>
         <div>
           <ActivitiesContainer />
+          <Quiz/>
         </div>
         <div>
           <GamesContainer />

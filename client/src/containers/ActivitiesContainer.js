@@ -22,7 +22,6 @@ const ActivitiesContainer = () => {
                 <OddOneOutActivity />
             </div>
         <hr/>
-            
         </>
     )
 }
