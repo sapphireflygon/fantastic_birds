@@ -17,3 +17,16 @@ export const images = [
 
 
 
+// [{name: "peacock", url: "http", id: 1},
+// {name: "penguin", url: "http", id: 2},
+// {name: "seal", url: "http", id: 3}]
+
+// [{name: "peacock", id: 1},
+// {name: "penguin",  id: 2},
+// {name: "seal", id: 3}]
+
+// if (url) =>
+
+
+
+

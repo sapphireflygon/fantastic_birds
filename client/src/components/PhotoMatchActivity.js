@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { images } from "../PhotoMatchImg.js";
 import '../PhotoMatchActivity.css'
 
-const PhotoMatchActivity = () =>{
-    const [imagesArray, setImagesArray] = useState([])    
+
+const PhotoMatchActivity = () => {
+
+    const [imagesArray, setImagesArray] = useState(getShuffledImagesArray)    
     const [cardsChosen, setCardsChosen] = useState([])    
     const [cardsChosenId, setCardsChosenId] = useState([])    
     const [points, setPoints] = useState(0)
@@ -11,14 +13,20 @@ const PhotoMatchActivity = () =>{
 
     const blankCard = 'https://i.etsystatic.com/13208078/r/il/eba185/2601812749/il_300x300.2601812749_mjuw.jpg'
 
-    useEffect(() => {
-        createImageBoard()
-    }, [])
+    // useEffect(() => {
+    //     console.log("This is the OG images will we ")
 
-    const createImageBoard = () => {
+    //     // const imagesGenerated = images?.concat(...images)
+    //     // console.log("This is the imagesGenereated ", imagesGenerated)
+
+    //     // const shuffledArray = shuffleArray(imagesGenerated)
+    //     // setImagesArray(shuffledArray)
+    // }, [])
+
+    function getShuffledImagesArray() {
         const imagesGenerated = images?.concat(...images)
         const shuffledArray = shuffleArray(imagesGenerated)
-        setImagesArray(shuffledArray)
+        return shuffledArray
     }
 
     const flipImage = (image, index) => {
@@ -52,7 +60,7 @@ const PhotoMatchActivity = () =>{
     }
 
     // Fisher-Yates algorithm for randomising the array 
-    const shuffleArray = (array) => {
+    function shuffleArray(array) {
         for (let img = array.length - 1; img > 0; img--) {
             const j = Math.floor(Math.random() * (img + 1));
             [array[img], array[j]] = [array[j], array[img]];
@@ -62,6 +70,7 @@ const PhotoMatchActivity = () =>{
 
     // Resets states to restart activity
     const restart = () => {
+        setImagesArray(getShuffledImagesArray())
         setCardsChosenId([])
         setCardsChosen([])
         setPoints(0)
