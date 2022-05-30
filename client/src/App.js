@@ -15,12 +15,12 @@ function App() {
         <div>
           <InfoContainer />
         </div>
-        {/* <div>
+        <div>
           <ActivitiesContainer />
         </div>
         <div>
           <GamesContainer />
-        </div> */}
+        </div>
       </div>
     </>
   );
