@@ -10,17 +10,20 @@ import ActivitiesContainer from './containers/ActivitiesContainer';
 function App() {
 
   return (
+    <>
     <div className="App">
       <ActivitiesContainer/>
     </div>
     <div>
-      <div>
-        <OddOneOutActivity />
-      </div>
-      <div>
-        <GameColoring />
-      </div>
-    </div>);
+        <div>
+          <OddOneOutActivity />
+        </div>
+        <div>
+          <GameColoring />
+        </div>
+    </div>
+    </>
+  );
 }
 
 export default App;
