@@ -4,7 +4,7 @@ import GameColoring from '../components/GameColoring';
 
 const GamesContainer = () => {
     return (
-        <>
+        <div className='games-container'>
             <div>
                 <h1>GamesContainer</h1>
                 <hr/>
@@ -13,7 +13,7 @@ const GamesContainer = () => {
             <div>
                 <GameColoring />
             </div>
-        </>
+        </div>
     )
 }
 

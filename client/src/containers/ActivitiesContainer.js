@@ -7,7 +7,7 @@ import Quiz from '../components/QuizActivity';
 
 const ActivitiesContainer = () => {
     return (
-        <>
+        <div className="activities-container">
             <h1>Activities Container</h1>
         <hr/>
             <div>
@@ -27,7 +27,7 @@ const ActivitiesContainer = () => {
                 <OddOneOutActivity />
             </div>
         <hr/>
-        </>
+        </div>
     )
 }
 
