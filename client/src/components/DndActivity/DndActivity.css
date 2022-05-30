@@ -1,25 +1,29 @@
 .dnd-main {
     text-align: center;
-    margin: 1rem;
+    /* margin: 1rem; */
+    height: 100%;
+    min-height: 70vmin;
+    padding: 0.5rem;
+    background-color: #cacaca;
 }
 
 .drag-n-drop {
-    padding: 0.5rem;
     display: grid;
-    gap: 0.5rem;
+    gap: 1.5rem;
     width: 100%;
     height: 100%;
-    /* 200px below will determine the width of each column */
+    /* px value below will determine the width of each column */
     grid-template-columns: repeat(auto-fill, 150px); 
     align-items: flex-start;
     justify-content: space-between;
 }
 
+/* trying to get the first list with all the draggable foods to be a row on top, then have all the birds' lists be empty columns below that -- come back to later if time to figure out */
 /* .drag-n-drop:not(:first-of-type) {
+    width: 90vw;
+    height: 100%;
     display: grid;
     gap: 0.5rem;
-    width: 10%;
-    height: 100%;
     grid-template-columns: repeat(auto-fill, 100px);
 } */
 
@@ -33,7 +37,7 @@
 }
 
 .dnd-group {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(95, 95, 95);
     border-radius: 5px;
     padding: 0.5rem;
 }
@@ -44,7 +48,7 @@
     align-items: center;
     background-color: white;
     color: black;
-    min-height: 75px;
+    min-height: 50px;
     border-radius: 5px;
 }
 
@@ -52,15 +56,16 @@
     margin-bottom: 0.5rem;
 }
 
-/* anything inside of Item element will have this styling */
 .dnd-item * {
     margin: 0;
 }
 
+/* style item while it's being dragged */
 .current {
     background-color: #909090;
 }
 
+/* styles for items when dropped into a different bird's list */
 .pengu {
     background-color: blue;
 }
