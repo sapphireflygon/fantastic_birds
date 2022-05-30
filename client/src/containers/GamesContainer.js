@@ -9,7 +9,6 @@ const GamesContainer = () => {
                 <h1>GamesContainer</h1>
                 <hr/>
             </div>
-
             <div>
                 <GameColoring />
             </div>
