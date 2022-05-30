@@ -25,7 +25,11 @@
 
 .group-title {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: grey;
+    border-radius: 5px;
 }
 
 .dnd-group {

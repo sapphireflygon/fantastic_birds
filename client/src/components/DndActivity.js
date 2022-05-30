@@ -1,5 +1,6 @@
 import React from 'react';
 import DndMain from './DndActivity/DndMain';
+import "./DndActivity/DndActivity.css"
 
 const DndActivity = () => {
 
