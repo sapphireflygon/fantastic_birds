@@ -27,16 +27,15 @@
     margin: 1rem;
     background-color: hotpink;
     border: 3px dotted black;
+    align-items: center;
 }
 
 .bird-card {
-    color: blueviolet;
-    background-color: transparent;
+    background-color: dodgerblue;
     border: 3px dashed black;
     padding: 1rem;
     margin: 1rem;
     width: 60%;
-
     perspective: 1000px;
 }
 
@@ -55,10 +54,12 @@
 
 .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 100px;
+    width: 100%;
     height: 100px;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    margin-left:3px;
+    margin-right:3px;
 }
 
 .flip-card-front {
@@ -68,7 +69,7 @@
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: yellow;
+    color: black;
     transform: rotateY(180deg);
 }
