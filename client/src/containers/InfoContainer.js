@@ -6,7 +6,7 @@ const InfoContainer = () => {
     return (
         <div className='info-container'>
             <h1>Info Container</h1>
-                <BirdCard
+                <BirdCard />
             <hr/>
         </div>
     )
