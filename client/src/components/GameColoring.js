@@ -1,5 +1,5 @@
 import React from "react";
-import Bird from "./OddOneOutIMG/Bird";
+import Bird from "./Bird";
 
 const GameColoring = () => {
 

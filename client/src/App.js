@@ -6,7 +6,6 @@ import './components/OddOneOutIMG/Bird.css'
 
 function App() {
 
-
   return (
     <div>
       <div>
