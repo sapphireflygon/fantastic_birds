@@ -73,18 +73,20 @@ const PhotoMatchActivity = () =>{
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
             </style>
-            <h1>Picture Matcher!</h1>
-            <h2>Match pictures together to win points!</h2>
-            <h2>Points: {points}</h2>
-            <button className="button" onClick={restart}>Restart</button>
-            <div className="photoMatchFlex">
-                {imagesArray?.map((image, index) => {
-                    return (
-                        <div className="imageCard" key={index} onClick={() => flipImage(image, index)}>
-                            <img className="image" src={isCardChosen(image, index) ? image : blankCard} alt="card image"/>
-                        </div>
-                    )
-                })}
+            <div className="photoMatchMain">
+                <h1>Picture Matcher!</h1>
+                <h2>Match pictures together to win points!</h2>
+                <h2>Points: {points}</h2>
+                <button className="button" onClick={restart}>Restart</button>
+                <div className="photoMatchFlex">
+                    {imagesArray?.map((image, index) => {
+                        return (
+                            <div className="imageCard" key={index} onClick={() => flipImage(image, index)}>
+                                <img className="image" src={isCardChosen(image, index) ? image : blankCard} alt="card image"/>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </>
     )

@@ -1,7 +1,11 @@
-* {
+.photoMatchMain {
+	text-align: center;
+	background-image: linear-gradient(rgba(251, 251, 251, 1), rgba(255, 187, 0, 0.5));
+	margin: 0;
+	padding: 0;
 	font-family: 'Patrick Hand', cursive;
 }
-
+    
 .photoMatchFlex {
 	display: flex;
 	flex-flow: row wrap;
@@ -12,8 +16,6 @@
 	margin-right: 440px;
 	margin-left: 440px;
 	padding: 10px;
-
-
 }
 
 .image {
@@ -36,6 +38,7 @@
 .button {
 	background-color: rgb(26, 23, 0);
 	color: rgb(255, 255, 255);
+	font-family: 'Patrick Hand', cursive;
 	border-radius: 8px;
 	margin: 15px;
 	font-size: 15pt;
