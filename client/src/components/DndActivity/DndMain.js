@@ -18,31 +18,38 @@ const DndMain = () => {
                 "seeds",
                 "mice",
                 "squirrels"
-            ]
+            ],
+            style: "dnd-item"
         },
         {
             title: "Robin",
-            items: []
+            items: [],
+            style: "dnd-item robin"
         },
         {
             title: "Owl",
-            items: []
+            items: [],
+            style: "dnd-item owl"
         },
         {
             title: "Penguin",
-            items: []
+            items: [],
+            style: "dnd-item pengu"
         },
         {
             title: "Duck",
-            items: []
+            items: [],
+            style: "dnd-item duck"
         },
         {
             title: "Peacock",
-            items: []
+            items: [],
+            style: "dnd-item peacock"
         },
         {
             title: "Pelican",
-            items: []
+            items: [],
+            style: "dnd-item pelican"
         }
     ]
 

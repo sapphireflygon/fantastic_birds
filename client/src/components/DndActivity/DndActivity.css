@@ -1,5 +1,6 @@
 .dnd-main {
     text-align: center;
+    margin: 1rem;
 }
 
 .drag-n-drop {
@@ -11,10 +12,16 @@
     /* 200px below will determine the width of each column */
     grid-template-columns: repeat(auto-fill, 150px); 
     align-items: flex-start;
+    justify-content: space-between;
 }
 
-.drag-n-drop:not(:first-of-type) {
-}
+/* .drag-n-drop:not(:first-of-type) {
+    display: grid;
+    gap: 0.5rem;
+    width: 10%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 100px);
+} */
 
 .group-title {
     text-align: center;
@@ -48,4 +55,29 @@
 
 .current {
     background-color: #909090;
+}
+
+.pengu {
+    background-color: blue;
+}
+
+.robin {
+    background-color: red;
+}
+
+.peacock {
+    background-color: aquamarine;
+}
+
+.pelican {
+    background-color: orange;
+}
+
+.owl {
+    background-color: navy;
+    color: white;
+}
+
+.duck {
+    background-color: green;
 }
