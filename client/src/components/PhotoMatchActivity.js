@@ -27,12 +27,12 @@ const PhotoMatchActivity = () =>{
             return
         }
 
-        // Check if number of chosen cards is less than 2
+        // Set cardsChosen
         if (cardsChosen?.length < 2) {
             setCardsChosen(cardsChosen => cardsChosen?.concat(image))
             setCardsChosenId(cardsChosenId => cardsChosenId?.concat(index))
 
-            // Check if chosen images are the same
+            // Check if chosen images are the same and add points
             if (cardsChosen?.length === 1) {
                 if (cardsChosen[0] === image) {
                     setPoints(points => points + 1)
@@ -60,14 +60,13 @@ const PhotoMatchActivity = () =>{
         return array
     }
 
-    // resets states
+    // Resets states to restart activity
     const restart = () => {
         setCardsChosenId([])
         setCardsChosen([])
         setPoints(0)
         setOpenCards([])
     }
-
 
     return (
         <>
