@@ -1,18 +1,14 @@
 // child component of InfoContainer.js
 import React, { useState } from 'react'
-import data from './data/Data';
 import Modal from 'react-modal'
-
-import BirdCardList from './BirdCardList';
 import BirdDetail from './BirdDetail';
 
 const BirdCard = ({bird}) => {
 
-    console.log(bird) // DELETE
     const [selected, setSelected] = useState('')
     const [toggleModal, setToggleModal] = useState(false);
 
-    const showModal = (bird) => {
+    const showModal = () => {
         setSelected(bird)
         setToggleModal(true)
     };
@@ -21,13 +17,6 @@ const BirdCard = ({bird}) => {
         setSelected('')
         setToggleModal(false)
     }
-
-    // const birdSelect = () => {
-    //     setBirds(data)
-        
-    // }
-    // console.log(birdSelect) // DELETE
-
 
     return (
         <div className='bird-card'>
