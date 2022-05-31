@@ -1,11 +1,18 @@
 // dummy data to reference (same as seeds.js in server)
 
+import duck_card from "./InfoImages/duck_card.jpg"
+import robin_card from "./InfoImages/robin_card.jpg"
+import owl_card from "./InfoImages/owl_card.jpg"
+import peacock_card from "./InfoImages/peacock_card.jpg"
+import pelican_card from "./InfoImages/pelican_card.jpg"
+import penguin_card from "./InfoImages/penguin_card.jpg"
+
 const data = [
     {
         id: 1,
         name: "Robin",
         realimg: "https://www.rspb.org.uk/globalassets/images/birds-and-wildlife/bird-species-illustrations/robin_adult_1200x675.jpg?preset=largelandscape_mobile",
-        cartoonimg: "Emma's robin pic",
+        cartoonimg: robin_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "seeds, insects",
@@ -19,7 +26,7 @@ const data = [
         id: 2,
         name: "Owl",
         realimg: "https://petapixel.com/assets/uploads/2021/10/babybarnowl.jpg",
-        cartoonimg: "Emma's owl pic",
+        cartoonimg: owl_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "night",
         food: "mice, insects",
@@ -33,7 +40,7 @@ const data = [
         id: 3,
         name: "Peacock",
         realimg: "https://blog.happybeaks.co.uk/wp-content/uploads/2020/04/Peacock.png",
-        cartoonimg: "Emma's peacock pic",
+        cartoonimg: peacock_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "flower petals, ants, crickets",
@@ -47,7 +54,7 @@ const data = [
         id: 4,
         name: "Pelican",
         realimg: "https://media.istockphoto.com/photos/pelicans-picture-id166672691?k=20&m=166672691&s=612x612&w=0&h=asjgLtYxdAxVjOxtCcdO_U9toYJvEukpfMcE09zFZBg=",
-        cartoonimg: "Emma's pelican pic",
+        cartoonimg: pelican_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "fish",
@@ -61,7 +68,7 @@ const data = [
         id: 5,
         name: "Duck",
         realimg: "https://www.allaboutbirds.org/guide/assets/photo/308743051-480px.jpg",
-        cartoonimg: "Emma's duck pic",
+        cartoonimg: duck_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "aquatic plants",
@@ -75,7 +82,7 @@ const data = [
         id: 6,
         name: "Penguin",
         realimg: "irl pic",
-        cartoonimg: "Emma's penguin pic",
+        cartoonimg: penguin_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "krill, squid, fish",
