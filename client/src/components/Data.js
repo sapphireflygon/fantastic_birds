@@ -5,7 +5,7 @@ import robin_card from "./InfoImages/robin_card.jpg"
 import owl_card from "./InfoImages/owl_card.jpg"
 import peacock_card from "./InfoImages/peacock_card.jpg"
 import pelican_card from "./InfoImages/pelican_card.jpg"
-// import penguin_card from "./InfoImages/penguin_carg.jpg"
+import penguin_card from "./InfoImages/penguin_card.jpg"
 
 const data = [
     {
@@ -82,7 +82,7 @@ const data = [
         id: 6,
         name: "Penguin",
         realimg: "irl pic",
-        cartoonimg: "",
+        cartoonimg: penguin_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
         food: "whatever they eat",
