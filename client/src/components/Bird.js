@@ -3,7 +3,7 @@ import Palette from "./Palette"
 
 const Bird = () => {
 
-    const [fillColors, setFillColors] = useState(Array(22).fill("white"))
+    const [fillColors, setFillColors] = useState(Array(15).fill("white"))
     const [currentColor, setCurrentColor] = useState('white')
 
     
@@ -24,7 +24,7 @@ const Bird = () => {
 
             <div id="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
-                    <title>Sun Flower Template</title>
+                    <title>Robin Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">
                         <g id="svg_002" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
                             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
