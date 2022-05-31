@@ -7,7 +7,6 @@ const GamesContainer = () => {
         <div className='games-container'>
             <div>
                 <h1>GamesContainer</h1>
-                <hr/>
             </div>
             <div>
                 <GameColoring />
