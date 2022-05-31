@@ -39,44 +39,44 @@ const data = [
     {
         id: 3,
         name: "Peacock",
-        realimg: "irl pic",
+        realimg: "https://blog.happybeaks.co.uk/wp-content/uploads/2020/04/Peacock.png",
         cartoonimg: peacock_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "whatever they eat",
+        food: "flower petals, ants, crickets",
         fly: true,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "perch",
+        beaklength: "short",
+        beakwidth: "medium",
+        feetinfo: "Sharp 'kicking thorns' for defence against predators."
     },
     {
         id: 4,
         name: "Pelican",
-        realimg: "irl pic",
+        realimg: "https://media.istockphoto.com/photos/pelicans-picture-id166672691?k=20&m=166672691&s=612x612&w=0&h=asjgLtYxdAxVjOxtCcdO_U9toYJvEukpfMcE09zFZBg=",
         cartoonimg: pelican_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "whatever they eat",
+        food: "fish",
         fly: true,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "webbed",
+        beaklength: "long",
+        beakwidth: "medium",
+        feetinfo: "Webbed feet are great for swimming"
     },
     {
         id: 5,
         name: "Duck",
-        realimg: "irl pic",
+        realimg: "https://www.allaboutbirds.org/guide/assets/photo/308743051-480px.jpg",
         cartoonimg: duck_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "whatever they eat",
+        food: "aquatic plants",
         fly: true,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "webbed",
+        beaklength: "medium",
+        beakwidth: "medium",
+        feetinfo: "Great for swimming and diving"
     },
     {
         id: 6,
@@ -85,12 +85,12 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: "magnified feet lol",
         activity: "day",
-        food: "whatever they eat",
+        food: "krill, squid, fish",
         fly: false,
-        feettype: "???",
-        beaklength: "???",
-        beakwidth: "???",
-        feetinfo: "???"
+        feettype: "webbed",
+        beaklength: "meidum",
+        beakwidth: "medium",
+        feetinfo: "Location on the body causes penguins to walk standing up."
     }
 ]
 

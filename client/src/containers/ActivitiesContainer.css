@@ -1,0 +1,60 @@
+/* style td and table */
+
+.activities-container {
+    background-color: aqua;
+    border: 3px solid black;
+    min-height: 90vh;
+}
+
+.act-nav--tbody {
+    height: 300px;
+    border: 3px dashed red;
+    /* background-color: pink; */
+}
+
+.act-nav--tr{
+    width: 80vw;
+    border: 8px double black;
+}
+
+.act-nav--td {
+    border: 3px dotted black;
+    background-color: transparent;
+}
+
+.act-nav--td-act {
+    min-width: 81vw;
+    /* object-fit: fill; */
+    position: relative;
+}
+
+.tab-dnd, .tab-home, .tab-match, .tab-odd, .tab-quiz {
+    max-height: 5px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.blank-row {
+    height: 8em;
+}
+
+.tab-home {
+    color: green;
+    background-color: blue;
+}
+
+.tab-match {
+
+}
+
+.tab-odd {
+
+}
+
+.tab-quiz {
+
+}
+
+.tab-dnd {
+
+}
