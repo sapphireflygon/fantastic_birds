@@ -30,7 +30,9 @@ const BirdCard = ({bird}) => {
                     />
                 </div>
                 <div onClick={showModal} className='flip-card-back'>
-                    <h4>{bird.name}</h4>
+                    <div className='bird-card-name-back'>
+                        <h1>{bird.name}</h1>
+                    </div>
 
                 </div>
                 <Modal
