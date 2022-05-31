@@ -4,6 +4,7 @@ import PhotoMatchActivity from "../components/PhotoMatchActivity";
 import DndActivity from '../components/DndActivity';
 import OddOneOutActivity from "../components/OddOneOutActivity";
 import Quiz from '../components/QuizActivity';
+import "./ActivitiesContainer.css";
 
 const ActivitiesContainer = () => {
 
@@ -43,22 +44,29 @@ const ActivitiesContainer = () => {
         <hr/>
             <table>
                 <tbody className='act-nav--tbody'>
-                <tr>
-                    <td onClick={handleActivityChange}>HOME</td>
-                    <td rowSpan="5">{selectedAct}</td>
-                </tr>
-                <tr>
-                    <td onClick={handleActivityChange} >Quiz</td>
-                </tr>
-                <tr>
-                    <td onClick={handleActivityChange} >DnD</td>
-                </tr>
-                <tr>
-                    <td onClick={handleActivityChange} >Match</td>
-                </tr>
-                <tr>
-                    <td onClick={handleActivityChange} >Odd One Out</td>
-                </tr>
+                    <tr className="act-nav--tr">
+                        <td onClick={handleActivityChange} className="act-nav--td tab-home">HOME</td>
+                        <td rowSpan="7" className="act-nav--td-act">{selectedAct}</td>
+                    </tr>
+                    <tr className="act-nav--tr">
+                        <td onClick={handleActivityChange} className="act-nav--td tab-quiz" >Quiz</td>
+                    </tr>
+                    <tr className="act-nav--tr">
+                        <td onClick={handleActivityChange} className="act-nav--td tab-dnd" >DnD</td>
+                    </tr>
+                    <tr className="act-nav--tr">
+                        <td onClick={handleActivityChange} className="act-nav--td tab-match" >Match</td>
+                    </tr>
+                    <tr className="act-nav--tr tab-odd">
+                        <td onClick={handleActivityChange} className="act-nav--td" >Odd One Out</td>
+                    </tr>
+                    <tr >
+                        <td className="blank-row"></td>
+                    </tr>
+                    <tr >
+                        <td className="blank-row">
+                        </td>
+                    </tr>
                 </tbody>
             </table>
 
