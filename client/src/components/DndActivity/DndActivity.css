@@ -65,26 +65,33 @@
 
 /* styles for items when dropped into a different bird's list */
 .pengu {
-    background-color: blue;
+    background-color: #BCF4FF;
+    border: 2px solid #FFD200;
 }
 
 .robin {
-    background-color: red;
+    background-color:  #FF92E3;
+    border: 2px solid #E15F49;
 }
 
 .peacock {
-    background-color: aquamarine;
+    background-color: #FFE25F;
+    border: 2px solid #00579E;
 }
 
 .pelican {
-    background-color: orange;
+    background-color: #F78B00;
+    border: 2px solid #BCF4FF;
+
 }
 
 .owl {
-    background-color: navy;
+    background-color: #1B1B33;
+    border: 2px solid #D3A258;
     color: white;
 }
 
 .duck {
-    background-color: green;
+    background-color: #4ED054;
+    border: 2px solid #007F00;
 }

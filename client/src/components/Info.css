@@ -2,7 +2,7 @@
     background-color: darkcyan;
     padding: 20px;
     margin: 0.5rem;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 15px;
     align-items: center;
 }
@@ -61,6 +61,7 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     border-radius: 10px;
+    border: 3px solid black;
 }
 
 .flip-card-front {
@@ -69,7 +70,7 @@
 }
 
 .flip-card-back {
-    background-color: yellow;
+    background-color: rgb(203, 203, 81);
     color: black;
     transform: rotateY(180deg);
 }
