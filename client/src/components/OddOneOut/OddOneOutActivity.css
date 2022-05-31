@@ -6,45 +6,44 @@ h1 {
 #main_div {
     width: 100%;
     height: 100%;
-    border: solid, 3px;
+    /* border: solid, 3px; */
 
 }
 
 #odd-table {
     background-image: url(../OddOneOutIMG/bird_background.jpg);
-
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: contain;
-    border: solid 1px;
-    width: 800px;
-    height:fit-content;
+    /* border: solid 1px; */
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    margin-bottom: 3em;
+    border-radius: 3em;
 }
 
 #odd-table > tbody > tr > td {
-    width: 50px;
-    height:108px;
-    border: solid 1px;
+    width: 35px;
+    height:122px;
+    /* border: solid 1px; */
 }
 
 #bat {
     position: absolute;
-    top: 100px;
-    float: left;
-    display: inline;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 320px;
-    margin-right: 85%;
-    margin-left: 10%;
-    background-color: rgba(251, 251, 251, 0.8);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+        top: 100px;
+        right: 10%;
+        float: right;
+        width: 500px;
+        margin-right: 13%;
+        margin-left: 80%;
+        padding-bottom: 5px;
+        background-color: rgba(251, 251, 251, 0.8);
+        border-radius: 100px;
+        border: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 
 #super {
@@ -52,12 +51,12 @@ h1 {
     top: 100px;
     right: 10%;
     float: right;
-    width: 300px;
-    height: 500px;
+    width: 500px;
     margin-right: 13%;
     margin-left: 80%;
+    padding-bottom:5px;
     background-color: rgba(251, 251, 251, 0.8);
-    border-radius: 10px;
+    border-radius: 100px;
     border: 0px;
     padding-left: 10px;
     padding-right: 10px;
@@ -65,4 +64,18 @@ h1 {
 
 p {
     font-size: 30px;
+}
+
+#reset {
+    float: right;
+    margin-top:2em;
+    margin-right:2em;
+    width: 4em;
+    background-color: rgba(251, 251, 251, 0.8);
+    border-radius: 1em;
+}
+
+#reset:hover {
+    background-color: rgba(224, 210, 9, 0.8);
+    cursor: pointer;
 }

@@ -1,7 +1,22 @@
 import React, { useState, useEffect } from "react";
-import { images } from "./data/PhotoMatchImg.js";
 import '../PhotoMatchActivity.css'
 
+const duck = require('./InfoImages/duck_card.jpg')
+const peacock = require('./InfoImages/peacock_card.jpg')
+const owl = require('./InfoImages/owl_card.jpg')
+const pelican = require('./InfoImages/pelican_card.jpg')
+const penguin = require('./InfoImages/penguin_card.jpg')
+const robin = require('./InfoImages/robin_card.jpg')
+const blank = require('./InfoImages/egg.png')
+
+const images = [
+    duck,
+    owl,
+    peacock,
+    pelican,
+    penguin,
+    robin,
+]
 
 const PhotoMatchActivity = () => {
 
@@ -11,7 +26,7 @@ const PhotoMatchActivity = () => {
     const [points, setPoints] = useState(0)
     const [openCards, setOpenCards] = useState([])
 
-    const blankCard = 'https://i.etsystatic.com/13208078/r/il/eba185/2601812749/il_300x300.2601812749_mjuw.jpg'
+    const blankCard = blank
 
     // useEffect(() => {
     //     console.log("This is the OG images will we ")
@@ -83,10 +98,9 @@ const PhotoMatchActivity = () => {
                 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
             </style>
             <div className="photoMatchMain">
-                <h1>Picture Matcher!</h1>
-                <h2>Match pictures together to win points!</h2>
+                <h2>Picture Matcher!</h2>
                 <h2>Points: {points}</h2>
-                <button className="button" onClick={restart}>Restart</button>
+                <button className="button-match" onClick={restart}>Restart</button>
                 <div className="photoMatchFlex">
                     {imagesArray?.map((image, index) => {
                         return (
