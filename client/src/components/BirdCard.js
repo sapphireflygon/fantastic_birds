@@ -6,16 +6,22 @@ import BirdDetail from './BirdDetail';
 
 const BirdCard = ({bird}) => {
 
-    console.log(bird, "this is BIRD") // DELETE
+    
     const [selected, setSelected] = useState([])
     const [toggleModal, setToggleModal] = useState(false);
 
     // const selector = () => {
     //     return selected
     // }
-    console.log(selected, 'this is SELECTED')
+    
 
-    const showModal = (bird) => {
+    // const selectClick = () => {
+    //     onFilmClick(film)
+    // }
+
+    const showModal = () => {
+    
+        console.log(bird, "this is BIRD") // DELETE
         setSelected(bird)
         setToggleModal(true)
     };

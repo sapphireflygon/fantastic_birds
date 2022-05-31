@@ -1,10 +1,15 @@
 // child component of BirdCard.js
-import React from "react";
+import React,{useEffect} from "react";
 
 
 const BirdDetail = ({selected, closeModal}) => {
 
-    console.log(selected, 'this is selected BIRD DETAIL')
+    // useEffect ( () => {
+    //     // Update the document title using the browser API
+    //     console.log(selected, 'this is selected BIRD DETAIL')
+    //   });
+
+   
 
     return(
         <div>
