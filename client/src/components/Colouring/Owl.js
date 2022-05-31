@@ -25,7 +25,7 @@ const Owl = () => {
             </div>
 
             <div id="svg">
-                <svg viewBox="-100 10 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+                <svg viewBox="-80 -40 1000 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg" >
 
                     <title>Owl Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">

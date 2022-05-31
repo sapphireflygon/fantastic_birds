@@ -1,5 +1,5 @@
 import React from "react";
-import Bird from "./Bird";
+import Robin from "./Robin";
 import Eric from "./Eric";
 import Owl from "./Owl";
 
@@ -10,7 +10,7 @@ const GameColoring = () => {
 
         <div>
             <div>
-                <Bird />
+                <Robin />
 
                 <Eric />
 

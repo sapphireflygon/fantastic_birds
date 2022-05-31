@@ -1,6 +1,6 @@
 // our extensions; can add fun games when mvp done
 import React from 'react'
-import GameColoring from '../components/GameColoring';
+import GameColoring from '../components/Colouring/GameColoring'
 
 const GamesContainer = () => {
     return (

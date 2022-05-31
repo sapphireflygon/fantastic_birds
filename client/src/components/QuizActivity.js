@@ -21,7 +21,7 @@ const Quiz = () => {
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
-			questionImage: <img src={footprint}  />,
+			questionImage: <img src={footprint}/>,
 			answerOptions: [
 				{ answerText: 'Fur', isCorrect: false },
 				{ answerText: 'Feathers', isCorrect: true },
@@ -31,6 +31,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Which bird cannot fly?',
+			questionImage: <img src={footprint}/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: false },
 				{ answerText: 'Robin', isCorrect: false },
@@ -40,6 +41,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Whose footprint is this?',
+			questionImage: <img src={footprint}/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: true },
 				{ answerText: 'Peacock', isCorrect: false },
@@ -49,6 +51,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: "The shape of a bird's beak tells us...",
+			questionImage: <img src={footprint}/>,
 			answerOptions: [
 				{ answerText: 'what it sound like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
