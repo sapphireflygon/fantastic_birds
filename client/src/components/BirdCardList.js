@@ -1,16 +1,18 @@
 import React from 'react';
-import data from './Data';
+import data from './data/Data';
 import BirdCard from './BirdCard';
 
 const BirdCardList = () => {
     const desData = data[0]
-    console.log(desData)
+    // console.log(desData)
 
     const birdsList = data.map((bird, index) => {
         return (
             <BirdCard bird={bird} key={bird.id} index={index} />
         )
     })
+
+
 
     return (
         <div className='bird-card-list-container'>
