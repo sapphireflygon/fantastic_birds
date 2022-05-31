@@ -40,7 +40,7 @@ const ActivitiesContainer = () => {
 
     return (
         <div className="activities-container">
-            <table cellpadding="0" cellspacing="0" >
+            <table cellPadding="0" cellSpacing="0" >
                 <tbody className='act-nav--tbody' >
                     <tr className="act-nav--tr">
                         <td onClick={handleActivityChange} className="act-nav--td tab-home">HOME</td>

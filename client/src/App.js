@@ -5,7 +5,7 @@ import React from 'react';
 import './components/OddOneOut/OddOneOutActivity.css'
 import './components/Colouring/Bird.css'
 import InfoContainer from './containers/InfoContainer';
-import ColouringsContainer from './containers/GamesContainer';
+import ColouringsContainer from './containers/ColouringsContainer';
 
 function App() {
 
@@ -15,12 +15,18 @@ function App() {
         <div>
           <InfoContainer />
         </div>
+        <br/>
+        <br/>
         <div>
           <ActivitiesContainer />
         </div>
+        <br/>
+        <br/>
         <div>
           <ColouringsContainer />
         </div>
+        <br/>
+        <br/>
       </div>
     </>
   );

@@ -11,14 +11,14 @@
 }
 
 #svg {
+    margin-left: 40px;
     margin-top: 20px;
-    padding: 10px;
     width: 70%;
     margin-right: auto;
-    padding-top: 10px;
-    border: solid 1px;
-    border-radius: 20px;
+    /* border: solid 1px; */
+    border-radius: 90px;
     height: 600px;
+    background-color: white;
 }
 
 #color-box {
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     width: auto;
     justify-content: center;
-    gap: 8px;
+    gap: 13px;
     width: 200px;
     /* border: 1px solid; */
 }
@@ -40,16 +40,16 @@
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    height: 50px;
+    height: 45px;
     border-radius: 10px;
     line-height: 50px;
-    border: solid 0.2px rgb(187, 187, 187);
+    /* border: solid 0.2px rgb(187, 187, 187); */
 }
 
 #color-input {
 
-    height: 50px;
-    width: 90px;
+    height: 40px;
+    width: 80px;
     border-radius: 10px;
 
 }
@@ -73,4 +73,30 @@
 #color-text {
     padding-top: 5px;
     padding-right: 10px;
+}
+
+#robin {
+    padding: 31px;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    width: 80vw;
+    background-color: rgba(241, 181, 51, 0.53);
+}
+
+#owl {
+    padding: 31px;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    width: 80vw;
+    background-color: rgb(214, 150, 46);
+}
+#eric {
+    padding: 31px;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    width: 80vw;
+    background-color: rgb(245, 176, 79);
 }
