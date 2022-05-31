@@ -41,7 +41,6 @@ const ActivitiesContainer = () => {
     return (
         <div className="activities-container">
             <h1>Activities Container</h1>
-        <hr/>
             <table>
                 <tbody className='act-nav--tbody'>
                     <tr className="act-nav--tr">
@@ -69,7 +68,6 @@ const ActivitiesContainer = () => {
                     </tr>
                 </tbody>
             </table>
-        <hr/>
         </div>
     )
 }

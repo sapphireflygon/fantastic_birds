@@ -1,15 +1,12 @@
-/* style td and table */
-
 .activities-container {
-    background-color: aqua;
+    margin: 1.5em;
     border: 3px solid black;
     min-height: 90vh;
+    max-height: 90vh;
 }
 
 .act-nav--tbody {
-    height: 300px;
-    border: 3px dashed red;
-    /* background-color: pink; */
+    min-height: 70vh;
 }
 
 .act-nav--tr{
@@ -18,20 +15,21 @@
 }
 
 .act-nav--td {
-    border: 3px dotted black;
+    border: 3px solid black;
     background-color: transparent;
 }
 
 .act-nav--td-act {
-    min-width: 81vw;
-    /* object-fit: fill; */
+    min-width: 87vw;
+    min-height: 90vh;
     position: relative;
+    text-align: center;
+    border: 3px solid black;
 }
 
 .tab-dnd, .tab-home, .tab-match, .tab-odd, .tab-quiz {
-    max-height: 5px;
+    max-height: 2em;
     text-align: center;
-    background-color: yellow;
 }
 
 .blank-row {
@@ -39,22 +37,21 @@
 }
 
 .tab-home {
-    color: green;
-    background-color: blue;
+    background-color: seashell;
 }
 
 .tab-match {
-
+    background-color: papayawhip;
 }
 
 .tab-odd {
-
+    background-color: wheat;
 }
 
 .tab-quiz {
-
+    background-color: beige;
 }
 
 .tab-dnd {
-
+    background-color: blanchedalmond;
 }
