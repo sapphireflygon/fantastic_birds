@@ -70,7 +70,7 @@ const DndComponent = ({data}) => {
                         className='dnd-group'
                         onDragEnter={dragging && !group.items.length ? (event)=> handleDragEnter(event, {groupIndex, itemIndex:0}) : null}
                     >
-                    <h2 className='group-title'>{group.title}</h2>
+                    <h3 className='group-title'>{group.title}</h3>
                         {group.items.map((item, itemIndex)=> (
                             <div 
                                 draggable

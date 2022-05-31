@@ -3,10 +3,10 @@ import Palette from "./Palette"
 
 const Bird = () => {
 
-    const [fillColors, setFillColors] = useState(Array(22).fill("white"))
+    const [fillColors, setFillColors] = useState(Array(15).fill("white"))
     const [currentColor, setCurrentColor] = useState('white')
 
-    
+
 
     const paintColor = (event) => {
         const newColors = [...fillColors]
@@ -14,20 +14,21 @@ const Bird = () => {
         return setFillColors(newColors)
     }
 
-    console.log(fillColors)
-    console.log(currentColor)
-
     return (
         <div>
-            
-            <Palette setCurrentColor={setCurrentColor} currentColor={currentColor}/>
+
+            <Palette setCurrentColor={setCurrentColor} currentColor={currentColor} />
+            <div id="box-current-color">
+                <div id="color-text">Current<br /> Color</div>
+                <div id="current-color" style={{ background: currentColor, border: "1px solid grey" }} />
+            </div>
 
             <div id="svg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
-                    <title>Sun Flower Template</title>
+                    <title>Robin Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">
                         <g id="svg_002" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
-                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-100 130 800  600">
                                 <path id="0" fill={fillColors[0]} onClick={paintColor} data-name="leg R" d="M294.42,516.23a23.82,23.82,0,0,0-2-8.1H280.26l-14.17,10.12s3.89,15.51,10.12,18.22,2.09,1.71,8.09,14.17,27.39,63.39,32.39,74.89,4.91,15.67-10.12,22.27-30.17,5.41-38.46,6.07-10.7.45-16.19,6.08-.54,6,2,2,4-2.72,8.1-4.05,3.14,4.3,16.19,6.07,25.12-3.34,32.39-8.09,13.5-4.42,18.22-4,17.19,10.21,26.31,18.22,13,8.81,18.22,8.09,7.17,1.74,10.12,6.08,4.51,4,4.05,0S378,673.63,369.32,668s-12.79-12.38-10.12-12.14,37.57,19.58,50.61,22.26,12.14-4,12.14-4,8.07-.35,12.15,0,9,8,8.09,4-5.53-7.49-10.12-8.09a74.19,74.19,0,0,0-12.14,0s2-1.56-4.05-2-12.86-4.1-32.39-12.14-28.79-11.21-26.31-12.15,20.9-1.9,28.33-2,4.56-5.18,8.1-6.07,10.12,6.07,10.12,6.07a20.91,20.91,0,0,0-6.07-8.1c-4.2-3.22-10.39-1.44-26.31,0s-29.75,3.68-34.42,2-8.73-14.89-18.21-36.44S293.85,548,292.4,538.49C292.61,524,294.46,520,294.42,516.23Z" transform="translate(-80.2 -56.5)" />
                                 <path id="1" fill={fillColors[1]} onClick={paintColor} data-name="leg L" d="M371.35,538.49c-3.32-4.43-8.31-5.31-12.15-10.12s-6.07-16.19-6.07-16.19,1.91-4.88,14.17-4c30.82,2.09,22.26,10.12,22.26,10.12a21.49,21.49,0,0,0-4.05,8.1c-1.24,4.9,1.47,9.75,4.05,16.19S419,609.05,424,613.39s14.17,2,14.17,2,15.6-1.79,22.27-2,14.23-6,20.24-4c7.47,2.49,8.57,10.87,6.08,8.1a16.75,16.75,0,0,0-6.08-4.05,31.1,31.1,0,0,1-6.07,6.07c-3.74,2.8-7.84.58-24.29,2s17.44,9.43,26.31,12.14,23.63,8,26.32,8.1,12.18-3.2,20.24,2,6.63,7.94,0,4-12.14-2-12.14-2-1.38,1-6.08,4.05-10.68,1.31-22.26-4.05-27.14-11.21-34.41-12.15,11.53,10.75,22.26,16.2c10,8.94,4.05,8.09,4.05,8.09s-6-5.66-10.12-6.07-4.1.7-10.12,0-12.38-9.49-16.2-12.15-13.25-9.47-20.24-10.12-9.91,5.16-22.26,10.12-24.17,5-34.42,4-5-4-8.09-6.07-3-2.22-10.12,0-5.29.22,2-2,10,.4,12.15,0,6.95-.2,14.17,0,17-1.92,28.33-6.08,11.84-12.52,10.13-16.19-28.34-56.68-28.34-56.68C377.33,550.51,374.66,542.93,371.35,538.49Z" transform="translate(-80.2 -56.5)" />
                                 <path id="2" fill={fillColors[2]} onClick={paintColor} data-name="Body outer" d="M511,77c67.33,49.14,32.69,75.35,24.29,123.48s36.25,95.82,2,216.59S313.91,535.13,231.67,510.15s-89.09-56.2-74.89-74.89S283.9,175.73,298.47,151.87,340.05,71.22,434.1,60.78C449.87,59,481.55,58.92,511,77Z" transform="translate(-80.2 -56.5)" />
