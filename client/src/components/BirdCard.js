@@ -1,18 +1,27 @@
 // child component of InfoContainer.js
 import React, { useState } from 'react'
-import data from './data/Data';
 import Modal from 'react-modal'
 
-import BirdCardList from './BirdCardList';
 import BirdDetail from './BirdDetail';
 
 const BirdCard = ({bird}) => {
 
-    console.log(bird) // DELETE
-    const [selected, setSelected] = useState('')
+    
+    const [selected, setSelected] = useState([])
     const [toggleModal, setToggleModal] = useState(false);
 
-    const showModal = (bird) => {
+    // const selector = () => {
+    //     return selected
+    // }
+    
+
+    // const selectClick = () => {
+    //     onFilmClick(film)
+    // }
+
+    const showModal = () => {
+    
+        console.log(bird, "this is BIRD") // DELETE
         setSelected(bird)
         setToggleModal(true)
     };
@@ -21,12 +30,6 @@ const BirdCard = ({bird}) => {
         setSelected('')
         setToggleModal(false)
     }
-
-    // const birdSelect = () => {
-    //     setBirds(data)
-        
-    // }
-    // console.log(birdSelect) // DELETE
 
 
     return (
@@ -39,8 +42,8 @@ const BirdCard = ({bird}) => {
                         className="bird-card-img"
                     />
                 </div>
-                <div className='flip-card-back'>
-                    <h4 onClick={showModal}>{bird.name}</h4>
+                <div onClick={showModal} className='flip-card-back'>
+                    <h4>{bird.name}</h4>
 
                 </div>
                 <Modal
@@ -48,7 +51,7 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                 >
-                <BirdDetail selected={selected} closeModal={closeModal}/>
+                <BirdDetail selected={selected} closeModal={closeModal} />
                 </Modal>
             </div>
         </div>
