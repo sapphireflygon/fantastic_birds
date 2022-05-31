@@ -46,10 +46,17 @@ const OddOneOutActivity = () => {
                 <tbody>
                     <tr>
                         <td></td>
-                        <td onClick={handleClick}><img src={bat} height="90" /></td>
+                        <td onClick={handleClick}><img src={bat} height="60" /></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td onClick={handleSuperClick}><img src={superman} height="70" /></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -62,13 +69,6 @@ const OddOneOutActivity = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td onClick={handleSuperClick}><img src={superman} height="90" /></td>
                         <td></td>
                         <td onClick={handleClear}>reset</td>
                     </tr>

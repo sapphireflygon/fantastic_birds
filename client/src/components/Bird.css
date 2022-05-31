@@ -11,20 +11,26 @@
 }
 
 #svg {
+    margin-top: 20px;
+    padding:10px;
     width: 70%;
     margin:auto;
     padding-top: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    height: 600px;
 }
 
 #color-box {
     margin-left: auto;
     margin-right:  auto;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     width : auto;
     justify-content: center;
     gap: 8px;
-    width :67%
+    width :67%;
 }
 
 #color-box > div {

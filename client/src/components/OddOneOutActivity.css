@@ -11,11 +11,14 @@ h1 {
 }
 
 table {
-    background-image: url(./OddOneOutIMG/birds.png);
-    background-size: cover;
+    background-image: url(./OddOneOutIMG/bird_background.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
     border: solid 1px;
-    width: auto;
-    height: 300px;
+    width: 800px;
+    height:fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -23,8 +26,8 @@ table {
 }
 
 td {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height:108px;
     /* border: solid 1px; */
 }
 
