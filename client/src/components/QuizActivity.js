@@ -184,10 +184,8 @@ const Quiz = () => {
 					<div className='next-button'>
 					{response === "Correct" ? <button onClick={nextQuestion}>Next</button> : null}
 					</div>
-
 				</>
 				)}
-				<button className="restart" onClick={onRestartClick}>Restart quiz</button>
 		</div>
 	);
 }
