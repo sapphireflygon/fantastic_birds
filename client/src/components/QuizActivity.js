@@ -21,7 +21,7 @@ const Quiz = () => {
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
-			questionImage: <img src={footprint}/>,
+			questionImage: <img src={footprint} className='question-image'/>,
 			answerOptions: [
 				{ answerText: 'Fur', isCorrect: false },
 				{ answerText: 'Feathers', isCorrect: true },
@@ -31,7 +31,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Which bird cannot fly?',
-			questionImage: <img src={footprint}/>,
+			questionImage: <img src={footprint} className='question-image'/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: false },
 				{ answerText: 'Robin', isCorrect: false },
@@ -41,7 +41,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Whose footprint is this?',
-			questionImage: <img src={footprint}/>,
+			questionImage: <img src={footprint} className='question-image'/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: true },
 				{ answerText: 'Peacock', isCorrect: false },
@@ -51,7 +51,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: "The shape of a bird's beak tells us...",
-			questionImage: <img src={footprint}/>,
+			questionImage: <img src={footprint}  className='question-image'/>,
 			answerOptions: [
 				{ answerText: 'what it sound like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
@@ -152,42 +152,37 @@ const Quiz = () => {
 
 
 			{showScore ? (
-				<div>
-					<br />
-					<br />
+				<div className='show-score'>
 					<div className='score-section'>You scored {questions.length} out of {questions.length}</div>
 					<br />
-					<button className="restart" onClick={onRestartClick}>Restart quiz</button>
+					<button className="quiz-restart" onClick={onRestartClick}>Restart quiz</button>
 				</div>
 			) :
-				(<>
-
-
+				(
+				<>
 					<div className='question-section'>
 						<div className='question-count'>
 							<span className='quiz-title'>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
-						<div className='question-image'>{questions[currentQuestion].questionImage}</div>
+						<div>{questions[currentQuestion].questionImage}</div>
 					</div>
 					<div className='answer-section'>
-						<button onClick={() => handleAnswerButtonClick0(questions[currentQuestion].answerOptions[0].isCorrect)} style={{ backgroundColor: style0 }} >
+						<button className='quiz-button' onClick={() => handleAnswerButtonClick0(questions[currentQuestion].answerOptions[0].isCorrect)} style={{ backgroundColor: style0 }} >
 							{questions[currentQuestion].answerOptions[0].answerText}</button>
-						<button onClick={() => handleAnswerButtonClick1(questions[currentQuestion].answerOptions[1].isCorrect)} style={{ backgroundColor: style1 }} >
+						<button className='quiz-button' onClick={() => handleAnswerButtonClick1(questions[currentQuestion].answerOptions[1].isCorrect)} style={{ backgroundColor: style1 }} >
 							{questions[currentQuestion].answerOptions[1].answerText}</button>
-						<button onClick={() => handleAnswerButtonClick2(questions[currentQuestion].answerOptions[2].isCorrect)} style={{ backgroundColor: style2 }} >
+						<button className='quiz-button' onClick={() => handleAnswerButtonClick2(questions[currentQuestion].answerOptions[2].isCorrect)} style={{ backgroundColor: style2 }} >
 							{questions[currentQuestion].answerOptions[2].answerText}</button>
-						<button onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }} >
+						<button className='quiz-button' onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }} >
 							{questions[currentQuestion].answerOptions[3].answerText}</button>
 						<div className="answer-response"> {response} </div>
 					</div>
 					<div className='next-button'>
-					{response === "Correct" ? <button onClick={nextQuestion}>Next</button> : null}
+					{response === "Correct" ? <button className='quiz-button' onClick={nextQuestion}>Next</button> : null}
 					</div>
-
 				</>
 				)}
-				
 		</div>
 	);
 }
