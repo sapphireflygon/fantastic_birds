@@ -14,7 +14,7 @@ const BirdCard = ({bird}) => {
                     />
                 </div>
                 <div className='flip-card-back'>
-                    <h4>Bird name: {bird.name}</h4>
+                    <h3>{bird.name}</h3>
                 </div>
             </div>
         </div>

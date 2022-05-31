@@ -19,8 +19,8 @@
 
         /* below padding to pad out the entire app */
         padding-top: 2rem;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
         padding-bottom: 2rem;
         min-height: 100vh;
     }
