@@ -31,9 +31,8 @@ const data = [
         activity: "Day",
         food: "Seeds, insects",
         fly: true,
-        feettype: "Perch",
-        beaklength: "short",
-        beakwidth: "small",
+        feettype: "Perching",
+        beak: "Small, long and thin",
         feetinfo: "Short claws for perching on branches"
     },
     {
@@ -46,8 +45,7 @@ const data = [
         food: "Mice, insects",
         fly: true,
         feettype: "Grasping",
-        beaklength: "short",
-        beakwidth: "medium",
+        beak: "Strong, curved and powerful",
         feetinfo: "Sharp claws for hunting mice"
     },
     {
@@ -59,10 +57,9 @@ const data = [
         activity: "Day",
         food: "Flower petals, ants, crickets",
         fly: true,
-        feettype: "Perch",
-        beaklength: "short",
-        beakwidth: "medium",
-        feetinfo: "Sharp 'kicking thorns' for defence against predators."
+        feettype: "Perching",
+        beak: "Short, thick, round",
+        feetinfo: "Sharp claws for scratching the ground."
     },
     {
         id: 4,
@@ -74,9 +71,8 @@ const data = [
         food: "Fish",
         fly: true,
         feettype: "Webbed",
-        beaklength: "long",
-        beakwidth: "medium",
-        feetinfo: "Webbed feet are great for swimming"
+        beak: "Huge, long and expandable",
+        feetinfo: "Large webbed feet for swimming"
     },
     {
         id: 5,
@@ -85,12 +81,11 @@ const data = [
         cartoonimg: duck_card,
         cartoonimgfeet: duck_mag,
         activity: "Day",
-        food: "Aquatic plants",
+        food: "Water plants",
         fly: true,
         feettype: "Webbed",
-        beaklength: "medium",
-        beakwidth: "medium",
-        feetinfo: "Great for swimming and diving"
+        beak: "Broad, flat, strong",
+        feetinfo: "Webbed for swimming and diving"
     },
     {
         id: 6,
@@ -99,12 +94,11 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: penguin_mag,
         activity: "Day",
-        food: "krill, squid, fish",
+        food: "Fish",
         fly: false,
         feettype: "Webbed",
-        beaklength: "meidum",
-        beakwidth: "medium",
-        feetinfo: "Location on the body causes penguins to walk standing up."
+        beak: "Long, thin and curved",
+        feetinfo: "Their position lets the penguin stand up."
     }
 ]
 
