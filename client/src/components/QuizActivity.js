@@ -187,7 +187,7 @@ const Quiz = () => {
 
 				</>
 				)}
-				<button className="restart" onClick={onRestartClick}>Restart quiz</button>
+				
 		</div>
 	);
 }

@@ -6,14 +6,28 @@ import owl_card from "../InfoImages/owl_card.jpg"
 import peacock_card from "../InfoImages/peacock_card.jpg"
 import pelican_card from "../InfoImages/pelican_card.jpg"
 import penguin_card from "../InfoImages/penguin_card.jpg"
+import robin_mag from "../InfoImages/robin-mag.png"
+import robin_no_mag from "../InfoImages/robin-no-mag.png"
+import duck_mag from "../InfoImages/duck-mag.png"
+import duck_no_mag from "../InfoImages/duck-no-mag.png"
+import owl_mag from "../InfoImages/owl-mag.png"
+import owl_no_mag from "../InfoImages/owl-no-mag.png"
+import pelican_no_mag from "../InfoImages/pelican-no-mag.png"
+import pelican_mag from "../InfoImages/pelican-mag.png"
+import peacock_mag from "../InfoImages/peacock-mag.png"
+import peacock_no_mag from "../InfoImages/peacock-no-mag.png"
+import penguin_no_mag from "../InfoImages/penguin-no-mag.png"
+import penguin_mag from "../InfoImages/penguin-mag.png"
+
+
 
 const data = [
     {
         id: 1,
         name: "Robin",
-        realimg: "https://www.rspb.org.uk/globalassets/images/birds-and-wildlife/bird-species-illustrations/robin_adult_1200x675.jpg?preset=largelandscape_mobile",
+        realimg: robin_no_mag,
         cartoonimg: robin_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: robin_mag,
         activity: "Day",
         food: "Seeds, insects",
         fly: true,
@@ -25,9 +39,9 @@ const data = [
     {
         id: 2,
         name: "Owl",
-        realimg: "https://petapixel.com/assets/uploads/2021/10/babybarnowl.jpg",
+        realimg: owl_no_mag,
         cartoonimg: owl_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: owl_mag,
         activity: "Night",
         food: "Mice, insects",
         fly: true,
@@ -39,9 +53,9 @@ const data = [
     {
         id: 3,
         name: "Peacock",
-        realimg: "https://blog.happybeaks.co.uk/wp-content/uploads/2020/04/Peacock.png",
+        realimg: peacock_no_mag,
         cartoonimg: peacock_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: peacock_mag,
         activity: "Day",
         food: "Flower petals, ants, crickets",
         fly: true,
@@ -53,9 +67,9 @@ const data = [
     {
         id: 4,
         name: "Pelican",
-        realimg: "https://media.istockphoto.com/photos/pelicans-picture-id166672691?k=20&m=166672691&s=612x612&w=0&h=asjgLtYxdAxVjOxtCcdO_U9toYJvEukpfMcE09zFZBg=",
+        realimg: pelican_no_mag,
         cartoonimg: pelican_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: pelican_mag,
         activity: "Day",
         food: "Fish",
         fly: true,
@@ -67,9 +81,9 @@ const data = [
     {
         id: 5,
         name: "Duck",
-        realimg: "https://www.allaboutbirds.org/guide/assets/photo/308743051-480px.jpg",
+        realimg: duck_no_mag,
         cartoonimg: duck_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: duck_mag,
         activity: "Day",
         food: "Aquatic plants",
         fly: true,
@@ -81,9 +95,9 @@ const data = [
     {
         id: 6,
         name: "Penguin",
-        realimg: "irl pic",
+        realimg: penguin_no_mag,
         cartoonimg: penguin_card,
-        cartoonimgfeet: "magnified feet lol",
+        cartoonimgfeet: penguin_mag,
         activity: "Day",
         food: "krill, squid, fish",
         fly: false,

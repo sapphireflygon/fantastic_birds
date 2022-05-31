@@ -1,44 +1,38 @@
 .quiz-container {
-        display: grid;
+        /* display: grid;
         justify-content: space-evenly;
-        /* grid-template-areas:
-        "score"
-        "image"
-        "questions"    
-        "answers answers"
-        "answers answers"; */
         background-color: #e4e4e4;
         width: 100%;
         min-height: 5em;
-        border-radius: 15px;
+        border-radius: 15px; */
     }
     
     
     .score-section {
-
+/* 
         display: flex;
         align-items: center;
-        grid-area: 'score';
+        grid-area: 'score'; */
     }
     
     .question-section {
         /* grid-area: 'questions'; */
-        width: 100%;
+        /* width: 100%;
         justify-content: space-around;
-    
+     */
     }
     
     .question-count {
-        margin-bottom: 2em;
+        /* margin-bottom: 2em;
         display:flex;
-        align-items: center;
+        align-items: center; */
     }
     
     .question-image {
-        grid-area: 'image';
+        /* grid-area: 'image';
         object-fit: contain;
         max-width: 50%;
-        max-height: 50%;
+        max-height: 50%; */
     }
 
     .question-count span {
