@@ -146,6 +146,11 @@ const Quiz = () => {
 
 	return (
 		<div className='quiz-container'>
+
+		
+			{/* <button onClick={nextQuestion}>Start Quiz</button> */}
+
+
 			{showScore ? (
 				<div>
 					<br />
@@ -160,7 +165,7 @@ const Quiz = () => {
 
 					<div className='question-section'>
 						<div className='question-count'>
-							<span>Question {currentQuestion + 1}</span>/{questions.length}
+							<span className='quiz-title'>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
 						<div className='question-image'>{questions[currentQuestion].questionImage}</div>
