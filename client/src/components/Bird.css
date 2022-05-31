@@ -3,18 +3,18 @@
     clip-rule: evenodd;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-miterlimit: 1.5;
+    stroke-miterlimit: 1;
     stroke: black;
-    stroke-width: 8px;
+    stroke-width: 2px;
     stroke-linecap: "round";
     stroke-dashoffset: "0";
 }
 
 #svg {
     margin-top: 20px;
-    padding:10px;
+    padding: 10px;
     width: 70%;
-    margin:auto;
+    margin-right: auto;
     padding-top: 10px;
     border: solid 1px;
     border-radius: 20px;
@@ -22,31 +22,55 @@
 }
 
 #color-box {
-    margin-left: auto;
-    margin-right:  auto;
-    margin-bottom: 20px;
     display: flex;
+    float: right;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 90px;
     flex-wrap: wrap;
-    width : auto;
+    width: auto;
     justify-content: center;
     gap: 8px;
-    width :67%;
+    width: 200px;
+    /* border: 1px solid; */
 }
 
-#color-box > div {
+#color-box>div {
     width: 90px;
     text-align: center;
-    margin-top:auto;
+    margin-top: auto;
     margin-bottom: auto;
     height: 50px;
     border-radius: 10px;
     line-height: 50px;
+    border: solid 0.2px rgb(187, 187, 187);
 }
 
-input {
+#color-input {
 
     height: 50px;
     width: 90px;
     border-radius: 10px;
 
+}
+
+#current-color {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#box-current-color {
+    display: flex;
+    float: right;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: -150px;
+    text-align: center;
+}
+
+#color-text {
+    padding-top: 5px;
+    padding-right: 10px;
 }

@@ -25,9 +25,9 @@
 
 
 
-id = "27" fill = { fillColors[0]} onClick = { paintColor }
-id = "28" fill = { fillColors[0]} onClick = { paintColor }
-id = "29" fill = { fillColors[0]} onClick = { paintColor }
+
+
+
 id = "30" fill = { fillColors[0]} onClick = { paintColor }
 id = "31" fill = { fillColors[0]} onClick = { paintColor }
 id = "32" fill = { fillColors[0]} onClick = { paintColor }

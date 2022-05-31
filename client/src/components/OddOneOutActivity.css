@@ -10,7 +10,7 @@ h1 {
 
 }
 
-table {
+#odd-table {
     background-image: url(./OddOneOutIMG/bird_background.jpg);
 
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ table {
 
 }
 
-td {
+#odd-table > tbody > tr > td {
     width: 50px;
     height:108px;
     /* border: solid 1px; */

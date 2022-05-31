@@ -42,7 +42,7 @@ const OddOneOutActivity = () => {
     return (<div>
         <h1> IS IT A BIRD?</h1>
         <div id="main_div">
-            <table>
+            <table id="odd-table">
                 <tbody>
                     <tr>
                         <td></td>

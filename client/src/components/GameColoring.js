@@ -1,6 +1,7 @@
 import React from "react";
 import Bird from "./Bird";
 import Eric from "./Eric";
+import Owl from "./Owl";
 
 const GameColoring = () => {
 
@@ -12,7 +13,10 @@ const GameColoring = () => {
                 <Bird />
 
                 <Eric />
+
+                <Owl />
             </div>
+
 
         </div>
     )
