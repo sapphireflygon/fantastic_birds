@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Palette from "./Palette"
 
-const Bird = () => {
+const Robin = () => {
 
     const [fillColors, setFillColors] = useState(Array(15).fill("white"))
     const [currentColor, setCurrentColor] = useState('white')
@@ -24,7 +24,7 @@ const Bird = () => {
             </div>
 
             <div id="svg">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+                <svg viewBox="0 0 800 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <title>Robin Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">
                         <g id="svg_002" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
@@ -53,4 +53,4 @@ const Bird = () => {
 }
 
 
-export default Bird
+export default Robin

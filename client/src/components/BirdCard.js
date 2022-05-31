@@ -1,6 +1,7 @@
 // child component of InfoContainer.js
 import React, { useState } from 'react'
 import Modal from 'react-modal'
+
 import BirdDetail from './BirdDetail';
 
 const BirdCard = ({bird}) => {
@@ -28,8 +29,8 @@ const BirdCard = ({bird}) => {
                         className="bird-card-img"
                     />
                 </div>
-                <div className='flip-card-back'>
-                    <h4 onClick={showModal}>{bird.name}</h4>
+                <div onClick={showModal} className='flip-card-back'>
+                    <h4>{bird.name}</h4>
 
                 </div>
                 <Modal
@@ -37,7 +38,7 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                 >
-                <BirdDetail selected={selected} closeModal={closeModal}/>
+                <BirdDetail selected={selected} closeModal={closeModal} />
                 </Modal>
             </div>
         </div>
