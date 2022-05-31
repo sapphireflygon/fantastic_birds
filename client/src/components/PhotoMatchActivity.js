@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import '../PhotoMatchActivity.css'
+import './PhotoMatchActivity.css'
 
 const duck = require('./InfoImages/duck_card.jpg')
 const peacock = require('./InfoImages/peacock_card.jpg')
@@ -20,9 +20,9 @@ const images = [
 
 const PhotoMatchActivity = () => {
 
-    const [imagesArray, setImagesArray] = useState(getShuffledImagesArray)    
-    const [cardsChosen, setCardsChosen] = useState([])    
-    const [cardsChosenId, setCardsChosenId] = useState([])    
+    const [imagesArray, setImagesArray] = useState(getShuffledImagesArray)
+    const [cardsChosen, setCardsChosen] = useState([])
+    const [cardsChosenId, setCardsChosenId] = useState([])
     const [points, setPoints] = useState(0)
     const [openCards, setOpenCards] = useState([])
 
@@ -65,8 +65,8 @@ const PhotoMatchActivity = () => {
                     setCardsChosenId([])
                     setCardsChosen([])
                 }, 1000)
-                
-            } 
+
+            }
         }
     }
 
@@ -93,25 +93,23 @@ const PhotoMatchActivity = () => {
     }
 
     return (
-        <>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-            </style>
+        <div id="photo-match">
             <div className="photoMatchMain">
                 <h2>Picture Matcher!</h2>
                 <h2>Points: {points}</h2>
-                <button className="button-match" onClick={restart}>Restart</button>
                 <div className="photoMatchFlex">
                     {imagesArray?.map((image, index) => {
                         return (
                             <div className="imageCard" key={index} onClick={() => flipImage(image, index)}>
-                                <img className="image" src={isCardChosen(image, index) ? image : blankCard} alt="card image"/>
+                                <img className="image" src={isCardChosen(image, index) ? image : blankCard} alt="card image" />
                             </div>
                         )
                     })}
                 </div>
+                <br></br>
+                <button className="button-match" onClick={restart}>Restart</button>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -5,7 +5,7 @@ import React from 'react';
 import './components/OddOneOut/OddOneOutActivity.css'
 import './components/Colouring/Bird.css'
 import InfoContainer from './containers/InfoContainer';
-import GamesContainer from './containers/GamesContainer';
+import ColouringsContainer from './containers/GamesContainer';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
           <ActivitiesContainer />
         </div>
         <div>
-          <GamesContainer />
+          <ColouringsContainer />
         </div>
       </div>
     </>

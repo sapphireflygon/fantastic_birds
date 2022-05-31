@@ -1,11 +1,11 @@
-.activities-container {
+.games-container {
     margin: 1.5em;
     /* border: 3px solid black; */
     min-height: 90vh;
     max-height: 90vh;
 }
 
-.act-nav--homepage {
+.gam-nav--homepage {
     height: 47vw;
     background-color: rgb(249, 186, 140);
     margin-top: -20px;
@@ -15,18 +15,18 @@
     border-bottom-left-radius: 3em;
 }
 
-.act-nav--tbody {
+.gam-nav--tbody {
     height: 70vh;
 
 }
 
-.act-nav--tr {
+.gam-nav--tr {
     width: 80vw;
     /* border: 8px double black; */
 
 }
 
-.act-nav--td {
+.gam-nav--td {
     border: 3px solid black;
     width: 10vw;
     height: 3vw;
@@ -34,7 +34,7 @@
     background-color: transparent;
 }
 
-.act-nav--td-act {
+.gam-nav--td-gam {
     width: 120vh;
     min-width: 90vh;
     height: 70vh;
@@ -43,11 +43,9 @@
     /* border: 3px solid black; */
 }
 
-.tab-dnd,
-.tab-home,
-.tab-match,
-.tab-odd,
-.tab-quiz {
+.tab-robin,
+.tab-owl,
+.tab-eric {
     max-height: 2em;
     text-align: center;
 
@@ -57,24 +55,16 @@
     height: 8em;
 }
 
-.tab-home {
+.tab-robin {
     background-color: rgb(249, 186, 140);
     border-top-left-radius: 5em;
 }
 
-.tab-match {
+.tab-owl {
     background-color: rgb(214, 150, 46);
 }
 
-.tab-odd {
+.tab-eric {
     background-color: rgb(245, 176, 79);
     border-bottom-left-radius: 5em;
-}
-
-.tab-quiz {
-    background-color: rgb(255, 192, 144);
-}
-
-.tab-dnd {
-    background-color: rgb(246, 172, 146);
 }
