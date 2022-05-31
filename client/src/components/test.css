@@ -1,0 +1,95 @@
+/* 
+.oog-hero--purple {
+    background-color: #7e64ab;
+}
+.oog-hero {
+    position: relative;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fcf7f0;
+    font-family: work sans,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #404040;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.oog-hero__preview {
+    width: 100%;
+    margin-top: -66px;
+    position: relative;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+.oog-hero__preview img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+img {
+    border-style: none;
+}
+
+.oog-hero__illustrations img {
+    position: absolute;
+}
+.oog-hero__illustration-tree-1 {
+    bottom: 0;
+    left: 0;
+    height: 97%;
+    z-index: 500;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+
+html
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" preserveAspectRatio="none" viewBox="0 0 1366 140" class="oog-hero__clouds">
+
+<clipPath id="a">
+<path d="m0 0h1366v140h-1366z"></path></clipPath><g clip-path="url(#a)">
+<path clip-rule="evenodd" d="m1535 542c161.27 0 292-130.733 292-292 0-161.2672-130.73-292-292-292-86.05 0-163.42 37.22582-216.86 96.4527-46.18-30.619-101.58-48.4527-161.14-48.4527-82.97 0-157.85 34.6013-211.01 90.1605-66.127-33.3669-140.864-52.1605-219.99-52.1605-97.103 0-187.596 28.303-263.678 77.109-48.517-54.0841-118.946-88.109-197.322-88.109-66.311 0-126.934 24.3561-173.4105 64.6103-47.642-70.3637-128.215-116.6103-219.5895-116.6103-146.355 0-265 118.6445-265 265 0 146.355 118.645 265 265 265 66.3115 0 126.93427-24.356 173.4105-64.61 42.8581 63.298 112.3655 107.079 192.4135 115.234 14.819 256.744 227.717 460.376 488.176 460.376 252.58 0 460.43-191.499 486.29-437.228 63.6-12.189 119.86-45.008 161.57-91.225 46.18 30.619 101.58 48.453 161.14 48.453z" fill-rule="evenodd"></path>
+</g>
+</svg> */

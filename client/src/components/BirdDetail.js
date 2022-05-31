@@ -1,5 +1,5 @@
 // child component of BirdCard.js
-import React,{useEffect} from "react";
+import React,{ useRef } from "react";
 
 
 const BirdDetail = ({selected, closeModal}) => {
@@ -9,21 +9,52 @@ const BirdDetail = ({selected, closeModal}) => {
     //     console.log(selected, 'this is selected BIRD DETAIL')
     //   });
 
-    return(
-        <div>
-            <div className="bird-info">
-                <h1>{selected.name}</h1>
-                <p>Active: {selected.activity}</p>
-                <p>Food: {selected.food}</p>
-                <p>Flying: {selected.fly ? 'Yes' : 'No'}</p>
-                <p>Beak length: {selected.beaklength}</p>
-                <p>Beak width: {selected.beakwidth}</p>
-            </div>
+    const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
+        const imageRef = useRef(null);
 
-            <div className="bird-image">
-                <img src= {selected.realimg}/>
+            return (
+            <img 
+                onMouseOver={() => {
+                imageRef.current.src =secondaryImg ;
+                }}
+                onMouseOut={() => {
+                imageRef.current.src= primaryImg;
+                }}
+                src={primaryImg} 
+                className="bird-image"
+                alt=""
+                ref={imageRef}
+            />
+        )}
+
+    return(
+        <div className="modal">
+            <div className="modal-title">
+                <h1>{selected.name}</h1>
             </div>
-            <button onClick={closeModal}>Close</button>
+                <div className="bird-info-label">
+                        <p>Active: </p>
+                        <p>Food:</p>
+                        <p>Can it fly?</p>
+                        <p>Beak: </p>
+                        <p>Feet: </p>
+                </div>
+
+                <div className='bird-info-fact'>
+                    <p>{selected.activity}</p>
+                    <p> {selected.food}</p>
+                    <p> {selected.fly ? 'Yes' : 'No'}</p>
+                    <p>{selected.beak}</p>
+                    <p>{selected.feetinfo}</p>
+                </div>
+
+                <div>
+                    <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
+                </div>
+
+                <div className="close-modal">
+                    <button onClick={closeModal}>Close</button>
+                </div>
         </div>
     )
 }
