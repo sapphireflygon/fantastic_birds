@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Quiz.css';
+import footprint from '../components/QuizActivity/duck-footprints.jpg'
 
 const Quiz = () => {
 
@@ -20,6 +21,7 @@ const Quiz = () => {
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
+			questionImage: <img src={footprint}  />,
 			answerOptions: [
 				{ answerText: 'Fur', isCorrect: false },
 				{ answerText: 'Feathers', isCorrect: true },
@@ -140,7 +142,7 @@ const Quiz = () => {
 
 
 	return (
-		<div className='app'>
+		<div className='quiz-container'>
 			{showScore ? (
 				<div>
 					<br />
@@ -158,6 +160,7 @@ const Quiz = () => {
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+						<div className='question-image'>{questions[currentQuestion].questionImage}</div>
 					</div>
 					<div className='answer-section'>
 						<button onClick={() => handleAnswerButtonClick0(questions[currentQuestion].answerOptions[0].isCorrect)} style={{ backgroundColor: style0 }} >
@@ -170,11 +173,13 @@ const Quiz = () => {
 							{questions[currentQuestion].answerOptions[3].answerText}</button>
 						<div className="answer-response"> {response} </div>
 					</div>
+					<div className='next-button'>
 					{response === "Correct" ? <button onClick={nextQuestion}>Next</button> : null}
+					</div>
 
 				</>
 				)}
-
+				<button className="restart" onClick={onRestartClick}>Restart quiz</button>
 		</div>
 	);
 }
