@@ -25,7 +25,7 @@ const Eric = () => {
             </div>
 
             <div id="svg">
-                <svg viewBox="-30 20 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+                <svg viewBox="0 0 1000 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg" >
 
                     <title>Eric Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">

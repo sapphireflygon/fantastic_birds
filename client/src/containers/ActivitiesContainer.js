@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import PhotoMatchActivity from "../components/PhotoMatchActivity";
 import DndActivity from '../components/DndActivity';
-import OddOneOutActivity from "../components/OddOneOutActivity";
+import OddOneOutActivity from "../components/OddOneOut/OddOneOutActivity";
 import Quiz from '../components/QuizActivity';
 import "./ActivitiesContainer.css";
 
