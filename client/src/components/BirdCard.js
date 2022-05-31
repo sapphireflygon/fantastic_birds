@@ -38,7 +38,7 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                 >
-                <BirdDetail selected={selected} closeModal={closeModal} />
+                    <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
             </div>
         </div>

@@ -41,7 +41,6 @@ const ActivitiesContainer = () => {
     return (
         <div className="activities-container">
             <h1>Activities Container</h1>
-        <hr/>
             <table>
                 <tbody className='act-nav--tbody'>
                     <tr className="act-nav--tr">
@@ -69,27 +68,6 @@ const ActivitiesContainer = () => {
                     </tr>
                 </tbody>
             </table>
-
-
-            {/* <div>
-                <ActivitiesNav />
-            </div>
-            <div>
-                <PhotoMatchActivity />
-            </div>
-        <hr/>
-            <div>
-                <Quiz />
-            </div>
-        <hr/>
-            <div>
-                <DndActivity />
-            </div>
-        <hr/>
-            <div>
-                <OddOneOutActivity />
-            </div> */}
-        <hr/>
         </div>
     )
 }

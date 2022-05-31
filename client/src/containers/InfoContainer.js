@@ -8,7 +8,6 @@ const InfoContainer = () => {
         <div className='info-container'>
             <h1>Info Container</h1>
                 <BirdCardList />
-            <hr/>
         </div>
     )
 };
