@@ -11,7 +11,7 @@ h1 {
 }
 
 #odd-table {
-    background-image: url(./OddOneOutIMG/bird_background.jpg);
+    background-image: url(../OddOneOutIMG/bird_background.jpg);
 
     background-repeat: no-repeat;
     background-attachment: local;

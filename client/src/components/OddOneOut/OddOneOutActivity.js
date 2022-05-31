@@ -33,8 +33,8 @@ const OddOneOutActivity = () => {
         setSuperClick(false)
     }
 
-    const bat = require('./OddOneOutIMG/findbat.png')
-    const superman = require('./OddOneOutIMG/superman.png')
+    const bat = require('../OddOneOutIMG/findbat.png')
+    const superman = require('../OddOneOutIMG/superman.png')
 
 
 
