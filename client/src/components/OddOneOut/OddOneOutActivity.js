@@ -40,7 +40,7 @@ const OddOneOutActivity = () => {
 
 
     return (<div>
-        <h1> IS IT A BIRD?</h1>
+        <h1> Find creatures are not birds</h1>
         <div id="main_div">
             <table id="odd-table">
                 <tbody>
@@ -70,7 +70,7 @@ const OddOneOutActivity = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td onClick={handleClear}>reset</td>
+                        <td onClick={handleClear}><div id='reset'>RESET</div></td>
                     </tr>
                 </tbody>
             </table>
