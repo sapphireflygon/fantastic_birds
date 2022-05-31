@@ -69,26 +69,6 @@ const ActivitiesContainer = () => {
                     </tr>
                 </tbody>
             </table>
-
-
-            {/* <div>
-                <ActivitiesNav />
-            </div>
-            <div>
-                <PhotoMatchActivity />
-            </div>
-        <hr/>
-            <div>
-                <Quiz />
-            </div>
-        <hr/>
-            <div>
-                <DndActivity />
-            </div>
-        <hr/>
-            <div>
-                <OddOneOutActivity />
-            </div> */}
         <hr/>
         </div>
     )
