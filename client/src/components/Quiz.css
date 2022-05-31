@@ -64,23 +64,7 @@
         align-self: center;
     }
     
-    button {
-        width: 100%;
-        font-size: 16px;
-        text-align: center; 
-        color: #000000;
-        background-color: #ffffff;
-        border-radius: 10px;
-        display: flex;
-        padding: 10px;
-        padding-left: 100px;
-        padding-right: 100px;
-        margin-bottom: 0.5em;
-        justify-content: flex-start;
-        align-self: center;
-        border: 5px solid #ffffff; 
-        cursor: pointer;
-    }
+  
     
     .correct {
         background-color: #2f922f;
@@ -90,15 +74,5 @@
         background-color: #ff3333;
     }
     
-    button:hover {
-        background-color: #e2e2e2;
-    }
-    
-    button:focus {
-        outline: none;
-    }
-    
-    button svg {
-        margin-right: 5px;
-    }
+   
     
