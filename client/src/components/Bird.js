@@ -14,9 +14,6 @@ const Bird = () => {
         return setFillColors(newColors)
     }
 
-    console.log(fillColors)
-    console.log(currentColor)
-
     return (
         <div>
 
