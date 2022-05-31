@@ -13,13 +13,13 @@ function App() {
     <>
       <div className="App">
         <div>
-          <InfoContainer />
+          {/* <InfoContainer /> */}
         </div>
         <div>
           <ActivitiesContainer />
         </div>
         <div>
-          <GamesContainer />
+          {/* <GamesContainer /> */}
         </div>
       </div>
     </>
