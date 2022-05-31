@@ -8,7 +8,6 @@ import BirdDetail from './BirdDetail';
 
 const BirdCard = ({bird}) => {
     console.log(bird) // DELETE
-    const [birds, setBirds] = useState()
     const [selected, setSelected] = useState('')
     const [toggleModal, setToggleModal] = useState(false);
 
