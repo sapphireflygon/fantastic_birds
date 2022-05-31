@@ -33,13 +33,16 @@ const BirdCard = ({bird}) => {
                     <h4>{bird.name}</h4>
 
                 </div>
+                <div className='modal'>
                 <Modal
+                
                     isOpen={toggleModal}
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                 >
                 <BirdDetail selected={selected} closeModal={closeModal} />
                 </Modal>
+                </div>
             </div>
         </div>
     )
