@@ -2,8 +2,8 @@
 import './App.css';
 import ActivitiesContainer from "./containers/ActivitiesContainer";
 import React from 'react';
-import './components/OddOneOutActivity.css'
-import './components/Bird.css'
+import './components/OddOneOut/OddOneOutActivity.css'
+import './components/Colouring/Bird.css'
 import InfoContainer from './containers/InfoContainer';
 import GamesContainer from './containers/GamesContainer';
 
