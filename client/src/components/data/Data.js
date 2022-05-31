@@ -1,11 +1,11 @@
 // dummy data to reference (same as seeds.js in server)
 
-import duck_card from "./InfoImages/duck_card.jpg"
-import robin_card from "./InfoImages/robin_card.jpg"
-import owl_card from "./InfoImages/owl_card.jpg"
-import peacock_card from "./InfoImages/peacock_card.jpg"
-import pelican_card from "./InfoImages/pelican_card.jpg"
-import penguin_card from "./InfoImages/penguin_card.jpg"
+import duck_card from "../InfoImages/duck_card.jpg"
+import robin_card from "../InfoImages/robin_card.jpg"
+import owl_card from "../InfoImages/owl_card.jpg"
+import peacock_card from "../InfoImages/peacock_card.jpg"
+import pelican_card from "../InfoImages/pelican_card.jpg"
+import penguin_card from "../InfoImages/penguin_card.jpg"
 
 const data = [
     {

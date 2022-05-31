@@ -6,22 +6,22 @@ const ActivitiesNav = () => {
             <div>
                 ActivitiesNav
             </div>
-            <table class="tg">
+            <table className="tg">
                     <tr>
-                        <td class="tg-0lax">td</td>
-                        <td class="tg-0lax" rowspan="5">rowspan?</td>
+                        <td className="tg-0lax">td</td>
+                        <td className="tg-0lax" rowSpan="5">rowspan?</td>
                     </tr>
                     <tr>
-                        <td class="tg-0lax">td2</td>
+                        <td className="tg-0lax">td2</td>
                     </tr>
                     <tr>
-                        <td class="tg-0lax"></td>
+                        <td className="tg-0lax"></td>
                     </tr>
                     <tr>
-                        <td class="tg-0lax"></td>
+                        <td className="tg-0lax"></td>
                     </tr>
                     <tr>
-                        <td class="tg-0lax"></td>
+                        <td className="tg-0lax"></td>
                     </tr>
             </table>
         </>

@@ -4,7 +4,7 @@ import React from "react";
 
 const BirdDetail = ({selected, closeModal}) => {
 
-
+    console.log(selected, 'this is selected BIRD DETAIL')
 
     return(
         <div>
