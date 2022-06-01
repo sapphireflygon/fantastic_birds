@@ -12,12 +12,11 @@ const BirdCard = ({bird}) => {
 
     useEffect(() => {
         if (toggleModal) {
-            console.log(document.body.style.overflow)
-          document.body.style.overflow = 'hidden'
+            document.body.style.overflow = 'hidden'
         } else {
             document.body.style.overflow = 'scroll'
         }
-      }, [toggleModal])
+    }, [toggleModal])
 
     const showModal = () => {
         setSelected(bird)
@@ -50,6 +49,13 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                     className="modal-shiz"
+                    style={{
+                        content: {
+                            top: "7%",
+                            left:"7%",
+                            right: "7%",
+                            bottom: "7%"}
+                    }}
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>

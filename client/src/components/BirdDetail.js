@@ -27,6 +27,9 @@ const BirdDetail = ({selected, closeModal}) => {
             <div className="modal-title">
                 <h1>{selected.name}</h1>
             </div>
+            <div className="close-modal">
+                <button className="close-modal-btn" onClick={closeModal}>Close</button>
+            </div>
             <div className='bird-info-fact'>
                 <p>Active: {selected.activity}</p>
                 <p>Food: {selected.food}</p>
@@ -38,9 +41,6 @@ const BirdDetail = ({selected, closeModal}) => {
 
             <div className= "bird-image">
                 <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
-            </div>
-            <div className="close-modal">
-                <button onClick={closeModal}>Close</button>
             </div>
         </div>
     )
