@@ -56,7 +56,7 @@ const Quiz = () => {
 			questionText: "The shape of a bird's beak tells us...",
 			questionImage: <img src={quizPic4} className='question-image' alt='various beaks' />,
 			answerOptions: [
-				{ answerText: 'what it sound like', isCorrect: false },
+				{ answerText: 'what it sounds like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
 				{ answerText: 'where it lives', isCorrect: false },
 				{ answerText: 'what food it eats', isCorrect: true },
