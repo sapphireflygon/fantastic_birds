@@ -102,6 +102,7 @@
 }
 
 .brush {
+    padding-top:0.3em;
     align-items: center;
     width: 3.5em;
 }
