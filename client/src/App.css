@@ -1,9 +1,13 @@
-.app-header {
-    margin-bottom: 2em;
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1em;
 }
 
-.header-text {
-    font-size: 70px;
+.header-image {
+
+    width: 40rem;
 }
 
 .btt-btn {

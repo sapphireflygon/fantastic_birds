@@ -26,18 +26,23 @@
 }
 
 .bird-card {
-    padding: 3rem;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    padding: 6rem;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
     width: 100%;
     height: 100%;
     perspective: 1000px;
     border-radius: 5px;
 }
 
+.bird-card-name-back h1{
+    font-size: 3vw;
+
+}
+
 .modal {
     display: grid;
-    grid-template-columns: 10% 30% 60%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     
     grid-template-areas:

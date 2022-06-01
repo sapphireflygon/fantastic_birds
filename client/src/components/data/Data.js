@@ -32,8 +32,8 @@ const data = [
         food: "Seeds, insects",
         fly: true,
         feettype: "Perching",
-        beak: "Small, long and thin",
-        feetinfo: "Short claws for perching on branches"
+        beak: "Small, long and thin. Perfect for pulling worms from the ground.",
+        feetinfo: "Sharp claws for perching on branches."
     },
     {
         id: 2,
@@ -45,8 +45,8 @@ const data = [
         food: "Mice, insects",
         fly: true,
         feettype: "Grasping",
-        beak: "Strong, curved and powerful",
-        feetinfo: "Sharp claws for hunting mice"
+        beak: "Strong, curved and powerful. Good to bite into food.",
+        feetinfo: "Sharp claws for hunting mice."
     },
     {
         id: 3,
@@ -55,10 +55,10 @@ const data = [
         cartoonimg: peacock_card,
         cartoonimgfeet: peacock_mag,
         activity: "Day",
-        food: "Flower petals, ants, crickets",
+        food: "Flower petals, snails, crickets",
         fly: true,
         feettype: "Perching",
-        beak: "Short, thick, round",
+        beak: "Short, thick, round. Perfect for pecking at ants.",
         feetinfo: "Sharp claws for scratching the ground."
     },
     {
@@ -71,8 +71,8 @@ const data = [
         food: "Fish",
         fly: true,
         feettype: "Webbed",
-        beak: "Huge, long and expandable",
-        feetinfo: "Large webbed feet for swimming"
+        beak: "Huge, long and expandable. Super for scooping up fish.",
+        feetinfo: "Large webbed feet for swimming."
     },
     {
         id: 5,
@@ -84,8 +84,8 @@ const data = [
         food: "Water plants",
         fly: true,
         feettype: "Webbed",
-        beak: "Broad, flat, strong",
-        feetinfo: "Webbed for swimming and diving"
+        beak: "Broad, flat and strong. Brilliant for nibbling grass.",
+        feetinfo: "Webbed for swimming and diving."
     },
     {
         id: 6,
@@ -97,7 +97,7 @@ const data = [
         food: "Fish",
         fly: false,
         feettype: "Webbed",
-        beak: "Long, thin and curved",
+        beak: "Long, thin and curved. Great for grabbing fish",
         feetinfo: "Their position lets the penguin stand up."
     }
 ]
