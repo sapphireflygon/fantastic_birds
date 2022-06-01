@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Quiz.css';
-import footprint from '../components/QuizActivity/duck-footprints.jpg'
+import quizPic1 from '../components/QuizActivity/quiz-pic1.jpg'
+import quizPic2 from '../components/QuizActivity/quiz-pic2.jpg'
+import quizPic3 from '../components/QuizActivity/quiz-pic3.jpg'
+import quizPic4 from '../components/QuizActivity/quiz-pic4.jpg'
 
 const Quiz = () => {
 
@@ -21,7 +24,7 @@ const Quiz = () => {
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
-			questionImage: <img src={footprint} className='question-image'/>,
+			questionImage: <img src={quizPic1} className='question-image' alt='pictures of feather, fur, shell, scales'/>,
 			answerOptions: [
 				{ answerText: 'Fur', isCorrect: false },
 				{ answerText: 'Feathers', isCorrect: true },
@@ -31,7 +34,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Which bird cannot fly?',
-			questionImage: <img src={footprint} className='question-image'/>,
+			questionImage: <img src={quizPic2} className='question-image' alt='various birds'/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: false },
 				{ answerText: 'Robin', isCorrect: false },
@@ -40,8 +43,8 @@ const Quiz = () => {
 			],
 		},
 		{
-			questionText: 'Whose footprint is this?',
-			questionImage: <img src={footprint} className='question-image'/>,
+			questionText: 'Whose footprints are these?',
+			questionImage: <img src={quizPic3} className='question-image' alt='footprints in sand'/>,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: true },
 				{ answerText: 'Peacock', isCorrect: false },
@@ -51,7 +54,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: "The shape of a bird's beak tells us...",
-			questionImage: <img src={footprint}  className='question-image'/>,
+			questionImage: <img src={quizPic4}  className='question-image' alt='various beaks'/>,
 			answerOptions: [
 				{ answerText: 'what it sound like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
