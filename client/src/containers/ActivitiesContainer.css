@@ -66,7 +66,7 @@
 }
 
 .tab-match {
-    background-color: rgb(214, 150, 46);
+    background-color: #69c4b9;
 }
 
 .tab-odd {
@@ -75,9 +75,9 @@
 }
 
 .tab-quiz {
-    background-color: rgb(255, 192, 144);
+    background-color: #ffc0e6;
 }
 
 .tab-dnd {
-    background-color: rgb(246, 172, 146);
+    background-color: #ffce74;
 }

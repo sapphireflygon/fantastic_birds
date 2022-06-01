@@ -17,7 +17,7 @@ const OddOneOutDetail = () => {
         <div id="main_div">
             <div id="bat">
                 <h2>RIGHT!</h2>
-                <p>BATS! Even though they can fly, bats are mammal! Bats have no feather. Bats give birth, birds lay eggs!</p>
+                <p>This is a bat! Even though they can fly, bats are mammals. Bats have no feathers. Bats give birth, birds lay eggs!</p>
                 <div onClick={handleClose} >close</div>
             </div>
         </div>
