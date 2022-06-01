@@ -4,11 +4,15 @@ import Robin from '../components/Colouring/Robin';
 import Owl from '../components/Colouring/Owl';
 import Eric from '../components/Colouring/Eric';
 import './ColouringsContainer.css'
+import colouringImg from '../components/Colouring/colour-main.jpg'
 
 const ColouringsContainer = () => {
     const colourHome = (
         <div className="colour-nav--homepage">
+
             <h2>Click on a bird name to get started!</h2>
+            <img src={colouringImg} width="700vw" />
+
         </div>
     );
 
@@ -37,7 +41,7 @@ const ColouringsContainer = () => {
             <table cellPadding="0" cellSpacing="0" >
                 <tbody className='act-nav--tbody' >
                     <tr className="act-nav--tr">
-                        <td onClick={handleColourChange} className="act-nav--td tab-home">HOME</td>
+                        <td onClick={handleColourChange} className="act-nav--td tab-color-home">HOME</td>
                         <td rowSpan="6" className="act-nav--td-act">{selectedColour}</td>
                     </tr>
                     <tr className="act-nav--tr">

@@ -1,6 +1,5 @@
 .info-container {
     padding: 20px;
-    margin: 0.5rem;
     border-radius: 15px;
     align-items: center;
 }
@@ -35,9 +34,6 @@
     border-radius: 5px;
 }
 
-.modal-shiz {
-    
-}
 
 .modal {
     display: grid;
