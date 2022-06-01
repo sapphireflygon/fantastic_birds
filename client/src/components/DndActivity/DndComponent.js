@@ -62,7 +62,7 @@ const DndComponent = ({data}) => {
 
 
     return (
-        <div>
+        <div id="dnd-frame">
             <div className='drag-n-drop'>
                 {list.map((group, groupIndex)=> (
                     <div 
