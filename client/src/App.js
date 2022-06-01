@@ -9,6 +9,7 @@ import InfoContainer from './containers/InfoContainer';
 import headerImage from './components/header-title.png'
 import BackToTopButton from './components/BackToTopButton';
 import ColouringsContainer from './containers/ColouringsContainer';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -36,9 +37,8 @@ function App() {
           <ColouringsContainer />
         </div>
           <BackToTopButton />
-        <br/>
-        <br/>
       </div>
+        <Footer />
     </>
   );
 }
