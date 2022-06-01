@@ -65,8 +65,6 @@ const data = [
         food: "Flower petals, snails, crickets",
         fly: true,
         size: "",
-        wingspan: "",
-        weight: "",
         beak: "Short, thick, round. Perfect for pecking at ants.",
         feettype: "Perching",
         feetinfo: "Sharp claws for scratching the ground.",
@@ -83,8 +81,6 @@ const data = [
         food: "Fish",
         fly: true,
         size: "",
-        wingspan: "",
-        weight: "",
         beak: "Huge, long and expandable. Super for scooping up fish.",
         feettype: "Webbed",
         feetinfo: "Large webbed feet for swimming."

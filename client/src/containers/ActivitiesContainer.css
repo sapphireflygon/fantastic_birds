@@ -42,6 +42,10 @@
     /* border: 3px solid black; */
 }
 
+.activity-header {
+    max-width: 50vw;
+}
+
 .tab-dnd,
 .tab-home,
 .tab-match,

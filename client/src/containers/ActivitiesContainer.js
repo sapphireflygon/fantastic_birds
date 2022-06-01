@@ -5,13 +5,13 @@ import DndActivity from '../components/DndActivity';
 import OddOneOutActivity from "../components/OddOneOut/OddOneOutActivity";
 import Quiz from '../components/QuizActivity';
 import "./ActivitiesContainer.css";
-import activityHeader from '../components/activities-header.svg'
+import activityHeader from '../components/activities-header-01.png'
 
 const ActivitiesContainer = () => {
 
     const actHome = (
         <div className="act-nav--homepage">
-            <img src={activityHeader}/>
+            <img className='activity-header' src={activityHeader}/>
             <h2>Click on an activity to get started!</h2>
         </div>
     );
