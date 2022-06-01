@@ -19,37 +19,44 @@ const DndMain = () => {
                 "mice",
                 "squirrels"
             ],
-            style: "dnd-item"
+            style: "dnd-item",
+            style2: "group-title"
         },
         {
             title: "Robin",
             items: [],
-            style: "dnd-item robin"
+            style: "dnd-item robin",
+            style2: "group-title robin"
         },
         {
             title: "Owl",
             items: [],
-            style: "dnd-item owl"
+            style: "dnd-item owl",
+            style2: "group-title owl"
         },
         {
             title: "Penguin",
             items: [],
-            style: "dnd-item pengu"
+            style: "dnd-item pengu",
+            style2: "group-title pengu"
         },
         {
             title: "Duck",
             items: [],
-            style: "dnd-item duck"
+            style: "dnd-item duck",
+            style2: "group-title duck"
         },
         {
             title: "Peacock",
             items: [],
-            style: "dnd-item peacock"
+            style: "dnd-item peacock",
+            style2: "group-title peacock"
         },
         {
             title: "Pelican",
             items: [],
-            style: "dnd-item pelican"
+            style: "dnd-item pelican",
+            style2: "group-title pelican"
         }
     ]
 

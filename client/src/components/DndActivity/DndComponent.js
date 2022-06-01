@@ -53,12 +53,17 @@ const DndComponent = ({data}) => {
             return `current ${columnStyle}`
         };
         return `${columnStyle}`;
-    }
+    };
 
     const columnStyling = (groupIndex) => {
         const columnStyle = list[groupIndex].style;
         return columnStyle;
-    }
+    };
+
+    const groupTitleStyling = (groupIndex) => {
+        const titleStyle = list[groupIndex].style2;
+        return titleStyle;
+    };
 
 
     return (
@@ -70,7 +75,7 @@ const DndComponent = ({data}) => {
                         className='dnd-group'
                         onDragEnter={dragging && !group.items.length ? (event)=> handleDragEnter(event, {groupIndex, itemIndex:0}) : null}
                     >
-                    <h3 className='group-title'>{group.title}</h3>
+                    <h3 className={groupTitleStyling(groupIndex)}>{group.title}</h3>
                         {group.items.map((item, itemIndex)=> (
                             <div 
                                 draggable

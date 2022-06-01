@@ -7,8 +7,8 @@
     padding: 0.5em;
     background-color: rgb(246, 172, 146);
     border-top-right-radius: 3em;
-        border-bottom-right-radius: 3em;
-        border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
 }
 
 .drag-n-drop {
@@ -18,7 +18,7 @@
     /* px value below will determine the width of each column */
     grid-template-columns: repeat(auto-fill, 120px); 
     align-items: flex-start;
-    justify-content: space-between;
+    justify-items:center;
 }
 
 /* trying to get the first list with all the draggable foods to be a row on top, then have all the birds' lists be empty columns below that -- come back to later if time to figure out */
@@ -35,12 +35,12 @@
     margin-bottom: 0.5em;
     margin-top: 0;
     padding: 0.5em;
-    background-color: grey;
     border-radius: 5px;
+    background-color: blanchedalmond;
 }
 
 .dnd-group {
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(230, 132, 96);
     border-radius: 5px;
     padding: 0.25em;
     width: 6em;
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: blanchedalmond;
     color: black;
     min-height: 30px;
     border-radius: 5px;
@@ -86,8 +86,8 @@
 }
 
 .pelican {
-    background-color: #F78B00;
-    border: 2px solid #BCF4FF;
+    background-color: #BCF4FF;
+    border: 2px solid #F78B00;
 
 }
 

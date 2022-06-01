@@ -5,7 +5,7 @@ h1 {
 
 .odd {
     width:80vw;
-    background-color: rgb(245, 176, 79);
+    background-color: rgba(225, 255, 160, 0.827);
     margin-top: -30px;
     height: 100%;
     border-top-right-radius: 3em;
