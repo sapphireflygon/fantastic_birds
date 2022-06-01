@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Palette from "./Palette"
+import brushImage from "./brush.png"
 
 const Owl = () => {
 
@@ -20,8 +21,7 @@ const Owl = () => {
 
             <Palette setCurrentColor={setCurrentColor} currentColor={currentColor} />
             <div id="box-current-color">
-                <div id="color-text">Current<br /> Color</div>
-                <div id="current-color" style={{ background: currentColor }} />
+            <div id="current-color" style={{ background: currentColor }} ><img className='brush' src={brushImage} /></div>
             </div>
 
             <div id="svg">
