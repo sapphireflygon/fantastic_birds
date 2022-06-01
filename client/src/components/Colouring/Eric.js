@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import Palette from "./Palette"
 
 const Eric = () => {
@@ -6,7 +6,6 @@ const Eric = () => {
     const [fillColors, setFillColors] = useState(Array(30).fill("white"))
     const [currentColor, setCurrentColor] = useState('white')
 
-    useEffect = (() => paintColor)
 
     const paintColor = (event) => {
         const newColors = [...fillColors]
