@@ -4,7 +4,6 @@ import quizPic1 from '../components/QuizActivity/quiz-pic1.jpg'
 import quizPic2 from '../components/QuizActivity/quiz-pic2.jpg'
 import quizPic3 from '../components/QuizActivity/quiz-pic3.jpg'
 import quizPic4 from '../components/QuizActivity/quiz-pic4.jpg'
-import quizPic5 from '../components/QuizActivity/quiz-pic5.jpg'
 
 const Quiz = () => {
 
@@ -63,16 +62,6 @@ const Quiz = () => {
 				{ answerText: 'what food it eats', isCorrect: true },
 			],
 		},
-		{
-			questionText: "All birds...",
-			questionImage: <img src={quizPic5} className='question-image' alt='birds' />,
-			answerOptions: [
-				{ answerText: '...can fly', isCorrect: false },
-				{ answerText: '...eat worms', isCorrect: false },
-				{ answerText: '...can swim', isCorrect: false },
-				{ answerText: '...lay eggs', isCorrect: true },
-			],
-		}
 	];
 
 	const handleAnswerButtonClick0 = (isCorrect) => {
