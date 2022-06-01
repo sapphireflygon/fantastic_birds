@@ -118,3 +118,8 @@
     object-fit:contain;
     border-radius: 20px;
 }
+
+#h2-header {
+    margin-right: 5em;
+    text-align: right;
+}
