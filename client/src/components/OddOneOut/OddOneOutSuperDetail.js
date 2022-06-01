@@ -16,7 +16,7 @@ const OddOneOutSuperDetail = () => {
         <div id="main_div">
             <div id="super">
                 <h2>RIGHT!</h2>
-                <p>Right! Even though he can fly, Superman is a mammal! Superman has no wings. Superman gives birth, superman doens't lay eggs! ... maybe!? We are not sure. But, we <em>are</em> sure that he is not a bird</p>
+                <p>Right! Even though he can fly, Superman has no wings. Superman might give birth, but he doens't lay eggs! ... maybe!? We are not sure. But, we <em>are</em> sure that he is not a bird!</p>
                 <div onClick={handleClose} >close</div>
             </div>
         </div>
