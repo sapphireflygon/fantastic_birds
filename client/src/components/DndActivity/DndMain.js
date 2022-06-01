@@ -8,16 +8,20 @@ const DndMain = () => {
         {
             title: "Foods",
             items: [
-                "bugs", 
+                "insects", 
                 "berries",
-                "algae",
+                "snails",
                 "small fish",
-                "medium fish",
                 "big fish",
+                "crickets",
+                "algae",
+                "flower petals",
                 "worms",
                 "seeds",
                 "mice",
-                "squirrels"
+                "squirrels",
+                "krill",
+                "squid"
             ],
             style: "dnd-item",
             style2: "group-title"

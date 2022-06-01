@@ -15,10 +15,10 @@
     display: grid;
     width: 90%;
     height: 90%;
-    /* px value below will determine the width of each column */
-    grid-template-columns: repeat(auto-fill, 120px); 
+    /* % value below will determine the width of each column */
+    grid-template-columns: repeat(auto-fill, 13%); 
     align-items: flex-start;
-    justify-items:center;
+    
 }
 
 /* trying to get the first list with all the draggable foods to be a row on top, then have all the birds' lists be empty columns below that -- come back to later if time to figure out */
@@ -32,7 +32,7 @@
 
 .group-title {
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.75em;
     margin-top: 0;
     padding: 0.5em;
     border-radius: 5px;
@@ -43,7 +43,8 @@
     background-color: rgb(230, 132, 96);
     border-radius: 5px;
     padding: 0.25em;
-    width: 6em;
+    /* width: 6em; */
+    
 }
 
 .dnd-item {
