@@ -84,7 +84,7 @@ const data = [
         food: "Water plants",
         fly: true,
         feettype: "Webbed",
-        beak: "Broad, flat, strong. Brilliant for nibbling grass.",
+        beak: "Broad, flat and strong. Brilliant for nibbling grass.",
         feetinfo: "Webbed for swimming and diving."
     },
     {
