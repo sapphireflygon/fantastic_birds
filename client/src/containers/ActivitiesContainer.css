@@ -7,7 +7,7 @@
 
 .act-nav--homepage {
     height: 47vw;
-    background-color: rgb(249, 186, 140);
+    background-color: rgba(255, 249, 143, 0.796);
     width: 80vw;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
@@ -57,7 +57,7 @@
 }
 
 .tab-home {
-    background-color: rgb(249, 186, 140);
+    background-color: rgba(255, 249, 143, 0.796);
     border-top-left-radius: 5em;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .tab-odd {
-    background-color: rgb(245, 176, 79);
+    background-color: rgba(225, 255, 160, 0.827);
     border-bottom-left-radius: 5em;
 }
 

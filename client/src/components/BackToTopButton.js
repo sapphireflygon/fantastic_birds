@@ -24,7 +24,7 @@ const BackToTopButton = () => {
     return (
         <div>
             {backToTop && (
-                <button className='btt-btn' onClick={scrollUp}>^</button>
+                <button className='btt-btn' onClick={scrollUp}>▲</button>
             )}
         </div>
     )

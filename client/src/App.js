@@ -27,7 +27,7 @@ function App() {
         </div>
         <br/>
         <br/>
-        <div>
+        <div id="act-container">
           <ActivitiesContainer />
         </div>
         <br/>
