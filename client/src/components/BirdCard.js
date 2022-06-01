@@ -50,14 +50,15 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                     className="modal-box"
-                    style={{
-                        overlay: {
-                        position: 'fixed',
-                        top: '3%',
-                        left: '17%',
-                        right: '17%',
-                        bottom: '7%'
-                        }}}
+                    overlayClassName="overlay"
+                    // style={{
+                    //     overlay: {
+                    //     position: 'fixed',
+                    //     top: '0.5vh',
+                    //     left: '05.vh',
+                    //     right: '0.5vh',
+                    //     bottom: '0.5vh'
+                    //     }}}
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
