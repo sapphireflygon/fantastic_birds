@@ -32,31 +32,31 @@ const BirdDetail = ({selected, closeModal}) => {
             <div className="modal-title">
                 <h1>{selected.name}</h1>
             </div>
-                <div className="bird-info-label">
+                {/* <div className="bird-info-label">
                         <p>Active: </p>
                         <p>Food:</p>
                         <p>Can it fly?</p>
                         <p>Beak: </p>
                         <p>Feet: </p>
-                </div>
+                </div> */}
 
-                <div className='bird-info-fact'>
-                    <p>{selected.activity}</p>
-                    <p> {selected.food}</p>
-                    <p> {selected.fly ? 'Yes' : 'No'}</p>
-                    <p>{selected.beak}</p>
-                    <p>{selected.feetinfo}</p>
-                </div>
+            <div className='bird-info-fact'>
+                <p>Active: {selected.activity}</p>
+                <p>Food: {selected.food}</p>
+                <p>Can it fly?: {selected.fly ? 'Yes' : 'No'}</p>
+                <p>Beak: {selected.beak}</p>
+                <p>Feet: {selected.feetinfo}</p>
+            </div>
 
-                <div>
-                    <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
-                </div>
-
-                <div className="close-modal">
-                    <button onClick={closeModal}>Close</button>
-                </div>
+            <div className= "bird-image">
+                <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
+            </div>
+            <div className="close-modal">
+                <button onClick={closeModal}>Close</button>
+            </div>
         </div>
     )
 }
 
 export default BirdDetail
+

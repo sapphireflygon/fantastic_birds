@@ -6,7 +6,7 @@ import "../components/Info.css"
 const InfoContainer = () => {
     return (
         <div className='info-container'>
-            <h1>Info Container</h1>
+            <h1>Amazing Birds</h1>
                 <BirdCardList />
         </div>
     )

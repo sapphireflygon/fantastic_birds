@@ -4,6 +4,31 @@ import Modal from 'react-modal'
 
 import BirdDetail from './BirdDetail';
 
+const customStyles = {
+    overlay: {
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: 'rgba(255, 255, 255, 0.75)'
+        },
+        content: {
+        position: 'absolute',
+        top: '40px',
+        left: '40px',
+        right: '40px',
+        bottom: '40px',
+        border: '1px solid #ccc',
+        background: '#fff',
+        overflow: 'auto',
+        WebkitOverflowScrolling: 'touch',
+        borderRadius: '4px',
+        outline: 'none',
+        padding: '20px'
+    }
+    }
+
 const BirdCard = ({bird}) => {
 
     const [selected, setSelected] = useState('')
@@ -34,7 +59,6 @@ const BirdCard = ({bird}) => {
 
                 </div>
                 <Modal
-                
                     isOpen={toggleModal}
                     ariaHideApp={false}
                     contentLabel="Bird Details"
