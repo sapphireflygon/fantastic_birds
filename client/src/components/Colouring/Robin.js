@@ -15,16 +15,16 @@ const Robin = () => {
     }
 
     return (
-        <div>
+        <div id="robin">
 
             <Palette setCurrentColor={setCurrentColor} currentColor={currentColor} />
             <div id="box-current-color">
                 <div id="color-text">Current<br /> Color</div>
-                <div id="current-color" style={{ background: currentColor, border: "1px solid grey" }} />
+                <div id="current-color" style={{ background: currentColor }} />
             </div>
 
             <div id="svg">
-                <svg viewBox="0 0 800 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="-50 0 800 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <title>Robin Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">
                         <g id="svg_002" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
