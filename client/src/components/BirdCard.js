@@ -16,7 +16,8 @@ const BirdCard = ({bird}) => {
         } else {
             document.body.style.overflow = 'scroll'
         }
-    }, [toggleModal])
+        }, [toggleModal])
+
 
     const showModal = () => {
         setSelected(bird)
@@ -48,14 +49,15 @@ const BirdCard = ({bird}) => {
                     isOpen={toggleModal}
                     ariaHideApp={false}
                     contentLabel="Bird Details"
-                    className="modal-shiz"
+                    className="modal-box"
                     style={{
-                        content: {
-                            top: "7%",
-                            left:"7%",
-                            right: "7%",
-                            bottom: "7%"}
-                    }}
+                        overlay: {
+                        position: 'fixed',
+                        top: '3%',
+                        left: '17%',
+                        right: '17%',
+                        bottom: '7%'
+                        }}}
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
