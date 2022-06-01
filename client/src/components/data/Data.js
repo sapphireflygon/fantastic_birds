@@ -35,7 +35,7 @@ const data = [
         weight: "14-21g",
         beak: "Small, long and thin. Perfect for pulling worms from the ground.",
         feettype: "Perching",
-        feetinfo: "Short claws for perching on branches.",
+        feetinfo: "Sharp claws for perching on branches.",
         nesting: "The nest is made up of grass, moss and dead leaves and covered in hair and wool."
 
     },
@@ -110,14 +110,14 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: penguin_mag,
         activity: "Day",
-        food: "krill, squid, fish",
+        food: "Fish, squid, krill",
         fly: false,
         size: "",
         wingspan: "",
         weight: "",
         beak: "Long, thin and curved. Great for grabbing fish",
         feettype: "Webbed",
-        feetinfo: "Position lets them standup!",
+        feetinfo: "The position of their feet lets them stand up.",
         nesting: ""
     }
 ]

@@ -91,6 +91,12 @@
     /* background-color: blue; */
 }
 
+.hover-me {
+    font-size: 1.5rem;
+    font-style: italic;
+    color:rgb(85, 85, 85)
+}
+
 
 /* .bird-info {
     grid-area: "info";
@@ -216,6 +222,10 @@
     max-height: 100%;
     object-fit:contain;
     border-radius: 20px;
+}
+
+.bird-card-name-back h1{
+    font-size: 4em;
 }
 
 #h2-header {
