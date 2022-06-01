@@ -6,6 +6,7 @@ import OddOneOutActivity from "../components/OddOneOut/OddOneOutActivity";
 import Quiz from '../components/QuizActivity';
 import "./ActivitiesContainer.css";
 import activityHeader from '../components/activities-header-01.png'
+import activitiesNest from '../components/activity-nest-img.png'
 
 const ActivitiesContainer = () => {
 
@@ -13,6 +14,7 @@ const ActivitiesContainer = () => {
         <div className="act-nav--homepage">
             <img className='activity-header' src={activityHeader}/>
             <h2>Click on an activity to get started!</h2>
+            <img src={activitiesNest} width="500vw" />
         </div>
     );
 

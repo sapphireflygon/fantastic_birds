@@ -21,7 +21,7 @@ const Quiz = () => {
 	const [style1, setStyle1] = useState("")
 	const [style2, setStyle2] = useState("")
 	const [style3, setStyle3] = useState("")
-	const [style4, setStyle4] = useState("")
+	
 
 	const questions = [
 		{
@@ -73,7 +73,7 @@ const Quiz = () => {
 			{ answerText: '...can swim', isCorrect: false },
 			{ answerText: '...lay eggs', isCorrect: true },
 		],
-	},
+	}
 	];
 
 	const handleAnswerButtonClick0 = (isCorrect) => {
@@ -130,19 +130,7 @@ const Quiz = () => {
 			setStyle3("red")
 		}
 	};
-	const handleAnswerButtonClick4 = (isCorrect) => {
-
-		if (isCorrect === true) {
-			setScore(score + 1)
-			setResponse("Correct!")
-			setStyle4("green")
-		}
-
-		if (isCorrect === false) {
-			setResponse("Try again!")
-			setStyle4("red")
-		}
-	};
+	
 	const nextQuestion = () => {
 		const nextQuestion = currentQuestion + 1;
 
@@ -208,9 +196,6 @@ const Quiz = () => {
 							{questions[currentQuestion].answerOptions[2].answerText}</button>
 						<button className='quiz-button' onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }}>
 							{questions[currentQuestion].answerOptions[3].answerText}
-						</button>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick4(questions[currentQuestion].answerOptions[4].isCorrect)} style={{ backgroundColor: style4 }}>
-							{questions[currentQuestion].answerOptions[4].answerText}
 						</button>
 					</div>
 				

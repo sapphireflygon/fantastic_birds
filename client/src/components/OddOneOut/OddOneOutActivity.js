@@ -41,8 +41,8 @@ const OddOneOutActivity = () => {
 
     return (
         <div className = "odd"><div className="odd-main">
-        <h2> Find creatures are not birds</h2>
-       
+        <h2> Find the creatures that are NOT birds!</h2>
+
         <div id="main_div">
             <table id="odd-table">
                 <tbody>

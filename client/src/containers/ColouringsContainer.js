@@ -4,14 +4,15 @@ import Robin from '../components/Colouring/Robin';
 import Owl from '../components/Colouring/Owl';
 import Eric from '../components/Colouring/Eric';
 import './ColouringsContainer.css'
-import colouringImg from '../components/Colouring/colour-main.jpg'
+import colouringImg from '../components/Colouring/colour-main.png'
+import colourInHeader from '../components/Colouring/colour-in-header.png'
 
 const ColouringsContainer = () => {
     const colourHome = (
         <div className="colour-nav--homepage">
-
-            <h2>Click on a bird name to get started!</h2>
-            <img src={colouringImg} width="700vw" />
+                <img className='colour-in-header' src={colourInHeader}/>
+            <h2>Click on a bird's name to get started!</h2>
+            <img src={colouringImg} width="500vw" />
 
         </div>
     );

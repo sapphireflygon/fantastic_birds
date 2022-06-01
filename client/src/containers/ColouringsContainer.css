@@ -45,6 +45,10 @@
     /* border: 3px solid black; */
 }
 
+.colour-in-header {
+    max-width: 50vw;
+}
+
 .tab-color-home{
     background-color: #c0e1f2;
     border-top-left-radius: 5em;
