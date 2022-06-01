@@ -1,5 +1,4 @@
 // dummy data to reference (same as seeds.js in server)
-
 import duck_card from "../InfoImages/duck_card.jpg"
 import robin_card from "../InfoImages/robin_card.jpg"
 import owl_card from "../InfoImages/owl_card.jpg"
@@ -29,11 +28,15 @@ const data = [
         cartoonimg: robin_card,
         cartoonimgfeet: robin_mag,
         activity: "Day",
-        food: "Seeds, insects",
+        food: "Seeds, insects, worms",
         fly: true,
-        feettype: "Perching",
-        beak: "Small, long and thin",
-        feetinfo: "Short claws for perching on branches"
+        size: "13-14cm head to tail",
+        wingspan: "20-22cm",
+        weight: "14-21g",
+        beak: "Pointed, thin",
+        feettype: "Perch",
+        feetinfo: "Short claws for perching on branches.",
+        nesting: "The nest is made up of grass, moss and dead leaves and covered in hair and wool."
     },
     {
         id: 2,
@@ -44,9 +47,13 @@ const data = [
         activity: "Night",
         food: "Mice, insects",
         fly: true,
+        size: "",
+        wingspan: "",
+        weight: "",
+        beak: "short",
         feettype: "Grasping",
-        beak: "Strong, curved and powerful",
-        feetinfo: "Sharp claws for hunting mice"
+        feetinfo: "Sharp claws for hunting mice",
+        nesting: ""
     },
     {
         id: 3,
@@ -57,9 +64,13 @@ const data = [
         activity: "Day",
         food: "Flower petals, ants, crickets",
         fly: true,
-        feettype: "Perching",
-        beak: "Short, thick, round",
-        feetinfo: "Sharp claws for scratching the ground."
+        size: "",
+        wingspan: "",
+        weight: "",
+        beaklength: "short",
+        feettype: "Perch",
+        feetinfo: "Sharp 'kicking thorns' for defence against predators.",
+        nesting: ""
     },
     {
         id: 4,
@@ -70,9 +81,12 @@ const data = [
         activity: "Day",
         food: "Fish",
         fly: true,
+        size: "",
+        wingspan: "",
+        weight: "",
+        beak: "Very large. The lower half of a pelican’s beak has a flexible pouch, great for several fish all at the same time.",
         feettype: "Webbed",
-        beak: "Huge, long and expandable",
-        feetinfo: "Large webbed feet for swimming"
+        feetinfo: "Webbed feet are great for swimming."
     },
     {
         id: 5,
@@ -81,11 +95,15 @@ const data = [
         cartoonimg: duck_card,
         cartoonimgfeet: duck_mag,
         activity: "Day",
-        food: "Water plants",
+        food: "Aquatic plants",
         fly: true,
+        size: "",
+        wingspan: "",
+        weight: "",
+        beak: "medium",
         feettype: "Webbed",
-        beak: "Broad, flat, strong",
-        feetinfo: "Webbed for swimming and diving"
+        feetinfo: "Great for swimming and diving",
+        nesting: ""
     },
     {
         id: 6,
@@ -94,11 +112,15 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: penguin_mag,
         activity: "Day",
-        food: "Fish",
+        food: "krill, squid, fish",
         fly: false,
+        size: "",
+        wingspan: "",
+        weight: "",
+        beaklength: "meidum",
         feettype: "Webbed",
-        beak: "Long, thin and curved",
-        feetinfo: "Their position lets the penguin stand up."
+        feetinfo: "Location on the body causes penguins to walk standing up.",
+        nesting: ""
     }
 ]
 
