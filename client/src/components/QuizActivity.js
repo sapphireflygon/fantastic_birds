@@ -163,15 +163,15 @@ const Quiz = () => {
 			) :
 				(
 				<>
-					<div className='question-section'>
-						<div>
-							{questions[currentQuestion].questionImage}
-						</div>
-						<div className='question-count'>
+				<div className='question-count'>
 							<span className='quiz-title'>Question {currentQuestion + 1}/{questions.length}</span>
 						</div>
 						<div className='question-text'>
 							{questions[currentQuestion].questionText}
+						</div>
+					<div className='question-section'>
+						<div>
+							{questions[currentQuestion].questionImage}
 						</div>
 					</div>
 					<div className='answer-section'>
