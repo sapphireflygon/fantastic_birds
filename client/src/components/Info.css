@@ -58,6 +58,7 @@
     border: hidden;
     background-color: papayawhip;
     align-content: start;  
+    
     /* max-height: calc(100vh - 225px); */
 
     }
@@ -75,6 +76,7 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
+
     /* grid-template-areas:
         "title title title"
         "info image image"
@@ -83,6 +85,7 @@
 
 .modal-title h1{
     grid-area: 1 / 1 / 1 / 2 ;
+    z-index: 1;
     font-size: 4em;
     margin-top: 1em;
     /* background-color: blue; */
@@ -101,12 +104,14 @@
 .bird-info-fact {
     /* grid-area: "info"; */
     grid-area: 2 / 1 / 2 / 1 ;
-    margin-left: 3em;
-    margin-bottom: 6em;
+    z-index: 2;
+    align-content: end;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    /* margin-bottom: 20vh; */
     /* margin-right: 0.5em; */
-    padding-left: 2em;
-    padding-right: 3em; 
-    /* margin-left: 2em;
+    padding-left: 1vw;
+    padding-right: 1vw; 
     /* background-color: rgb(255, 0, 204); */
 }
 
@@ -118,22 +123,29 @@
 
 .bird-image-container {
     grid-area: 1 / 2 / 3 / 2;
+    z-index: 3;
+    padding-right: 50px;
+    margin-bottom: 20px;
     /* max-width: 100%;
     max-height: auto; */
     /* background-color: rgb(98, 255, 0); */  
 }
 
 .bird-image{
+    /* align-items: end; */
     max-width: 80%;
     max-height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .close-modal{
     grid-area: 1 / 2 / 1 / 2 ;
     /* background-color: rgb(251, 255, 0); */
     /* padding: 50px; */
-    margin-left: 30vw;
+    margin-left: 40vw;
     margin-top: 10vh;
+    z-index: 4;
     
 }
 
@@ -157,13 +169,13 @@
     stroke-dasharray: 0;
 }
 
-.close-modal-btn:hover {
+/* .close-modal-btn:hover {
     cursor: pointer;
 }
 
 .close-modal-btn:active {
     transform: translateY(4px)
-}
+} */
 
 .flip-card-inner {
     grid-area: auto;
@@ -178,8 +190,6 @@
 .bird-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-
-
 
 .flip-card-front, .flip-card-back {
     position: absolute;
