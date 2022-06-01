@@ -49,6 +49,13 @@ const BirdCard = ({bird}) => {
                     ariaHideApp={false}
                     contentLabel="Bird Details"
                     className="modal-shiz"
+                    style={{
+                        content: {
+                            top: "7%",
+                            left:"7%",
+                            right: "7%",
+                            bottom: "7%"}
+                    }}
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
