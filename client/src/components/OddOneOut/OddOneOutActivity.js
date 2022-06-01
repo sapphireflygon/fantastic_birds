@@ -39,8 +39,10 @@ const OddOneOutActivity = () => {
 
 
 
-    return (<div>
-        <h1> Find creatures are not birds</h1>
+    return (
+        <div className = "odd"><div className="odd-main">
+        <h2> Find creatures are not birds</h2>
+       
         <div id="main_div">
             <table id="odd-table">
                 <tbody>
@@ -70,15 +72,17 @@ const OddOneOutActivity = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td onClick={handleClear}><div id='reset'>RESET</div></td>
+                        <td ></td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <button className="button-match" onClick={handleClear}>Restart</button>
         <div>{click ? <OddOneOutDetail /> : null}</div>
         <div>{superClick ? <OddOneOutSuperDetail /> : null}</div>
 
-    </div>)
+        </div></div>
+        )
 }
 
 export default OddOneOutActivity

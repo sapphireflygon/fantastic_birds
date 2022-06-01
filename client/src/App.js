@@ -6,8 +6,8 @@ import React from 'react';
 import './components/OddOneOut/OddOneOutActivity.css'
 import './components/Colouring/Bird.css'
 import InfoContainer from './containers/InfoContainer';
-import GamesContainer from './containers/GamesContainer';
 import BackToTopButton from './components/BackToTopButton';
+import ColouringsContainer from './containers/ColouringsContainer';
 
 function App() {
 
@@ -20,13 +20,19 @@ function App() {
         <div>
           <InfoContainer />
         </div>
+        <br/>
+        <br/>
         <div>
           <ActivitiesContainer />
         </div>
+        <br/>
+        <br/>
         <div>
-          <GamesContainer />
+          <ColouringsContainer />
         </div>
-        <BackToTopButton />
+          <BackToTopButton />
+        <br/>
+        <br/>
       </div>
     </>
   );

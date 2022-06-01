@@ -24,7 +24,7 @@ const Palette = ({ setCurrentColor }) => {
                 <input id="color-input" type="color" name="head" />
             </div>
             {colors.map(color => {
-                return <div onClick={changeColor} style={{ backgroundColor: color }}>{color}</div>
+                return <div onClick={changeColor} style={{ backgroundColor: color, color: color }}>{color}</div>
             })}
         </div>)
 }
