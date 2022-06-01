@@ -31,7 +31,7 @@
     grid-column: 2;
     text-align: center;
     grid-area: 'score';
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .question-section {
@@ -61,9 +61,9 @@
 
 .question-text {
     margin-bottom: 0.5em;
-    font-size: 2vw;
-    font-weight: 800;
-    padding-top: 2em;
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 4em;
 }
 
 .answer-section {
@@ -71,9 +71,6 @@
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
-    
-
-
 }
 
 .answer-response {
@@ -102,7 +99,7 @@
     padding-right: 100px;
     align-self: center;
     border: none;
-    cursor: pointer;
+    cursor: pointer;	
 }
 
 
@@ -127,8 +124,6 @@
     transition: transform .3s ease;
 } */
 
-
-
 .correct {
     background-color: #59c851a4;
 }
@@ -152,21 +147,13 @@
             #ff4d78 83.25%,
             #ff4d78 100%,
             #f68add 100%);
-
-
-
     animation: slidebg 2s linear infinite;
 }
 
-@keyframes slidebg {
-    to {
-        background-position: 20vw;
-    }
-}
-
 .quiz-button:hover {
-    background-color: #d4d4d4;
-
+    background-color: #f4f4f4;
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgba(0,0,0,0.15);
 }
 
 .quiz-button:focus {
@@ -186,15 +173,56 @@
     border-radius: 10px;
     font-size: 16px;
     text-align: center;
-
 }
 
 .quiz-restart:hover {
-    background-color: #d4d4d4;
-
+    background-color: #774464;
 }
 
 .show-score {
     grid-column: 2;
     text-align: center;
 }
+
+.next-button {
+    /* position: relative;
+    margin-bottom: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0.5vw;
+    width: 70%;
+    font-size: 1.5em;
+    text-align: center;
+    background: #bfffba;
+    border-radius: 30px;
+    width: 10.10rem;
+    padding: 0.75rem 0;
+    color: white;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: none;
+    }
+    
+.next-button:hover {
+    transform: scale(1.1);
+    box-shadow:  20px 15px rgba(0,0,0,0.15);
+    }
+
+#fa-crow {
+    color: #59c851a4
+    }
+        
+#fa-arrow {
+    color: #59c851a4
+        }
+#fa-crow:hover {
+    color: #59c851e6
+}
+        
+#fa-arrow:hover{
+    color: #59c851e6
+}
+        
+        
