@@ -6,9 +6,9 @@
 }
 
 .act-nav--homepage {
-    height: 47vw;
+    height: 90vh;
     background-color: rgba(255, 249, 143, 0.796);
-    width: 80vw;
+    width: 85vw;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
@@ -16,7 +16,6 @@
 
 .act-nav--tbody {
     height: 70vh;
-
 }
 
 .act-nav--tr {
@@ -61,23 +60,30 @@
 }
 
 .tab-home {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(255, 249, 143, 0.796);
     border-top-left-radius: 5em;
 }
 
-.tab-match {
-    background-color: #69c4b9;
-}
-
 .tab-odd {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(225, 255, 160, 0.827);
     border-bottom-left-radius: 5em;
 }
 
 .tab-quiz {
     background-color: #ffc0e6;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
 }
 
-.tab-dnd {
+.tab-dnd {font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: #ffce74;
 }

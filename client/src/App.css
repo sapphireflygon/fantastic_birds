@@ -27,6 +27,7 @@
 
 
 @keyframes wobb {
+
     0%,
     100% {
         transform: translateY(0px)
@@ -55,17 +56,15 @@
     color: white;
 }
 
-.rainbow:hover{
-    background-image: linear-gradient(
-        to right, 
-        #e55a61,
-        #F68B1D, 
-        #FCED00,
-        #009E4F,
-        #00AAC3,
-        #c15bd5
-    );
-    animation:slidebg 5s linear infinite;
+.rainbow:hover {
+    background-image: linear-gradient(to right,
+            #e55a61,
+            #F68B1D,
+            #FCED00,
+            #009E4F,
+            #00AAC3,
+            #c15bd5);
+    animation: slidebg 5s linear infinite;
 }
 
 .banana {
@@ -74,10 +73,14 @@
 }
 
 .copyright {
+    padding-left: 4em;
+    padding-top: 5em;
     font-size: 20px;
 }
 
 .bob {
+
+    padding-left: 4em;
     font-size: 15px;
     margin-bottom: 2%;
 }
