@@ -6,9 +6,9 @@
 }
 
 .act-nav--homepage {
-    height: 47vw;
+    height: 90vh;
     background-color: rgba(255, 249, 143, 0.796);
-    width: 80vw;
+    width: 85vw;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
@@ -75,7 +75,7 @@
 }
 
 .tab-quiz {
-    background-color: rgb(255, 192, 144);
+    background-color: rgba(255, 207, 207, 0.891);
 }
 
 .tab-dnd {
