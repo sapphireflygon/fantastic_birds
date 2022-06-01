@@ -97,7 +97,7 @@ const data = [
         food: "Fish",
         fly: false,
         feettype: "Webbed",
-        beak: "Long, thin and curved. Great to grab and hold onto the fish",
+        beak: "Long, thin and curved. Great for grabbing fish",
         feetinfo: "Their position lets the penguin stand up."
     }
 ]
