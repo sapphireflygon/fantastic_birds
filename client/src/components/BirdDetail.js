@@ -4,11 +4,6 @@ import React,{ useRef } from "react";
 
 const BirdDetail = ({selected, closeModal}) => {
 
-    // useEffect ( () => {
-    //     // Update the document title using the browser API
-    //     console.log(selected, 'this is selected BIRD DETAIL')
-    //   });
-
     const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
         const imageRef = useRef(null);
 
@@ -32,14 +27,6 @@ const BirdDetail = ({selected, closeModal}) => {
             <div className="modal-title">
                 <h1>{selected.name}</h1>
             </div>
-                {/* <div className="bird-info-label">
-                        <p>Active: </p>
-                        <p>Food:</p>
-                        <p>Can it fly?</p>
-                        <p>Beak: </p>
-                        <p>Feet: </p>
-                </div> */}
-
             <div className='bird-info-fact'>
                 <p>Active: {selected.activity}</p>
                 <p>Food: {selected.food}</p>
