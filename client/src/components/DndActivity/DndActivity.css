@@ -1,10 +1,14 @@
 .dnd-main {
     text-align: center;
-    height: 90%;
-    min-height: 60vmin;
+    height: 47vw;
+    min-height: 70vmin;
+    width:80vw;
     min-width: 70vw;
     padding: 0.5em;
-    background-color: #cacaca;
+    background-color: rgb(246, 172, 146);
+    border-top-right-radius: 3em;
+        border-bottom-right-radius: 3em;
+        border-bottom-left-radius: 3em;
 }
 
 .drag-n-drop {

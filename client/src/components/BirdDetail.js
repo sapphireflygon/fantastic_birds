@@ -48,6 +48,7 @@ const BirdDetail = ({selected, closeModal}) => {
                 <p>Feet: {selected.feetinfo}</p>
             </div>
 
+
             <div className= "bird-image">
                 <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
             </div>

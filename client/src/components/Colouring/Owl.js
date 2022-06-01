@@ -16,16 +16,16 @@ const Owl = () => {
 
 
     return (
-        <div>
+        <div id="owl">
 
             <Palette setCurrentColor={setCurrentColor} currentColor={currentColor} />
             <div id="box-current-color">
                 <div id="color-text">Current<br /> Color</div>
-                <div id="current-color" style={{ background: currentColor, border: "1px solid grey" }} />
+                <div id="current-color" style={{ background: currentColor }} />
             </div>
 
             <div id="svg">
-                <svg viewBox="-80 -40 1000 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+                <svg viewBox="-200 -40 1000 1000" preserveAspectRatio="xMinYMin" width="50em" height="50em" version="1.1" xmlns="http://www.w3.org/2000/svg" >
 
                     <title>Owl Template</title>
                     <g id="svg_001" transform="translate(0 0)" display="inline">
