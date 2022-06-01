@@ -35,6 +35,10 @@
     border-radius: 5px;
 }
 
+.modal-shiz {
+    
+}
+
 .modal {
     display: grid;
     grid-template-columns: auto;

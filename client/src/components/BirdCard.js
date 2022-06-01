@@ -1,5 +1,5 @@
 // child component of InfoContainer.js
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Modal from 'react-modal'
 
 import BirdDetail from './BirdDetail';
@@ -34,6 +34,15 @@ const BirdCard = ({bird}) => {
     const [selected, setSelected] = useState('')
     const [toggleModal, setToggleModal] = useState(false);
 
+    useEffect(() => {
+        if (toggleModal) {
+            console.log(document.body.style.overflow)
+          document.body.style.overflow = 'hidden'
+        } else {
+            document.body.style.overflow = 'scroll'
+        }
+      }, [toggleModal])
+
     const showModal = () => {
         setSelected(bird)
         setToggleModal(true)
@@ -64,6 +73,7 @@ const BirdCard = ({bird}) => {
                     isOpen={toggleModal}
                     ariaHideApp={false}
                     contentLabel="Bird Details"
+                    className="modal-shiz"
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
