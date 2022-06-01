@@ -124,8 +124,6 @@
     transition: transform .3s ease;
 } */
 
-
-
 .correct {
     background-color: #59c851a4;
 }
@@ -151,8 +149,6 @@
             #f68add 100%);
     animation: slidebg 2s linear infinite;
 }
-
-
 
 .quiz-button:hover {
     background-color: #f4f4f4;

@@ -160,10 +160,12 @@ const Quiz = () => {
 			<>
 				<div className='robin-jump'>
 					<img src={robinJump} alt='robin jumping'/>
+
 				</div>
 				<div className='show-score'>
 
 				<div className='score-section'>
+
 					You scored {questions.length} 
 					<br/>
 					out of {questions.length}!
@@ -199,6 +201,7 @@ const Quiz = () => {
 							</button>
 							<div className="answer-response">
 								<div> {response} </div>
+
 									{response === "Correct!" ? 
 									<button className='next-button' onClick={nextQuestion}>
 									
@@ -206,6 +209,7 @@ const Quiz = () => {
 											<i className = 'fas fa-angle-right faa-passing' id='fa-arrow'></i>
 										
 									</button> : null}
+
 							</div>
 
 						</div>
