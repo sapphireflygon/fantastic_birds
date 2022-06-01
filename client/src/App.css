@@ -67,3 +67,17 @@
     );
     animation:slidebg 5s linear infinite;
 }
+
+.banana {
+    text-align: center;
+    color: grey;
+}
+
+.copyright {
+    font-size: 20px;
+}
+
+.bob {
+    font-size: 15px;
+    margin-bottom: 2%;
+}
