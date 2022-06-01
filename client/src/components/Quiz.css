@@ -1,10 +1,13 @@
 .quiz-container {
     display: grid;
-
     justify-content: space-evenly;
-    background-color: #e4e4e4;
-    width: 80vw;
+    background-color: rgb(255, 192, 144);
+    width: 100%;
     min-height: 9em;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+    width: 80vw;
 }
 
 .show-score {
@@ -68,7 +71,7 @@
 .quiz-button {
     width: 50%;
     font-size: 16px;
-    text-align: center; 
+    text-align: center;
     color: #000000;
     background-color: #ffffff;
     border-radius: 10px;
@@ -154,5 +157,5 @@
     border-radius: 10px;
     font-size: 16px;
     text-align: center;
-    
+
 }

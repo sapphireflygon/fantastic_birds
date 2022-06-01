@@ -42,9 +42,8 @@ const ActivitiesContainer = () => {
 
     return (
         <div className="activities-container">
-            <h1>Activities Container</h1>
-            <table>
-                <tbody className='act-nav--tbody'>
+            <table cellPadding="0" cellSpacing="0" >
+                <tbody className='act-nav--tbody' >
                     <tr className="act-nav--tr">
                         <td onClick={handleActivityChange} className="act-nav--td tab-home">HOME</td>
                         <td rowSpan="7" className="act-nav--td-act">{selectedAct}</td>
@@ -58,8 +57,8 @@ const ActivitiesContainer = () => {
                     <tr className="act-nav--tr">
                         <td onClick={handleActivityChange} className="act-nav--td tab-match" >Match</td>
                     </tr>
-                    <tr className="act-nav--tr tab-odd">
-                        <td onClick={handleActivityChange} className="act-nav--td" >Odd One Out</td>
+                    <tr className="act-nav--tr">
+                        <td onClick={handleActivityChange} className="act-nav--td tab-odd" >Odd One Out</td>
                     </tr>
                     <tr >
                         <td className="blank-row"></td>
