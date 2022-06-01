@@ -28,14 +28,14 @@ const BirdDetail = ({selected, closeModal}) => {
                 <h1>{selected.name}</h1>
             </div>
             <div className="close-modal">
-                <button className="close-modal-btn" onClick={closeModal}>Close</button>
+                <button className="close-modal-btn" onClick={closeModal}><b>X</b></button>
             </div>
             <div className='bird-info-fact'>
-                <p>Active: {selected.activity}</p>
-                <p>Food: {selected.food}</p>
-                <p>Can it fly?: {selected.fly ? 'Yes' : 'No'}</p>
-                <p>Beak: {selected.beak}</p>
-                <p>Feet: {selected.feetinfo}</p>
+                <p><b>Active:</b> {selected.activity}</p>
+                <p><b>Food:</b> {selected.food}</p>
+                <p><b>Can it fly?:</b> {selected.fly ? 'Yes' : 'No'}</p>
+                <p><b>Beak:</b> {selected.beak}</p>
+                <p><b>Feet:</b> {selected.feetinfo}</p>
             </div>
 
 

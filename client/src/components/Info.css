@@ -76,12 +76,17 @@
 }
 
 .close-modal{
-    /* grid-area: "close"; */
     grid-area: 1 / 4 / 1 / 3 ;
-    background-color: rgb(251, 255, 0);
-    padding: 50px;
-    margin-left: 20vw;
+    /* background-color: rgb(251, 255, 0); */
+    /* padding: 50px; */
+    margin-left: 30vw;
+    margin-top: 10vh;
     
+}
+
+* {
+    font-family: 'Varela Round', sans-serif;
+
 }
 
 .close-modal-btn {
