@@ -6,7 +6,7 @@
 }
 
 .colour-nav--homepage {
-    height: 70vh;
+    height: 90vh;
     background-color: #c0e1f2;
     padding: 31px;
     width: 80vw;
@@ -15,6 +15,9 @@
     border-bottom-left-radius: 3em;
 }
 
+.palette {
+    position: contain;
+}
 
 
 .colour-nav--tbody {
@@ -45,7 +48,13 @@
     /* border: 3px solid black; */
 }
 
-.tab-color-home{
+.colour-in-header {
+    max-width: 50vw;
+}
+
+.tab-color-home{font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: #c0e1f2;
     border-top-left-radius: 5em;
     text-align: center;
@@ -63,15 +72,21 @@
     height: 8em;
 }
 
-.tab-robin {
+.tab-robin {font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(103, 214, 255, 0.793);
 }
 
-.tab-owl {
+.tab-owl {font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(89, 243, 233, 0.542);;
 }
 
-.tab-eric {
+.tab-eric {font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(119, 139, 255, 0.683);;
     border-bottom-left-radius: 5em;
 }

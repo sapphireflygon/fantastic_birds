@@ -21,7 +21,6 @@ const Quiz = () => {
 	const [style1, setStyle1] = useState("")
 	const [style2, setStyle2] = useState("")
 	const [style3, setStyle3] = useState("")
-
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
@@ -73,6 +72,7 @@ const Quiz = () => {
 				{ answerText: '...lay eggs', isCorrect: true },
 			],
 		}
+
 	];
 
 	const handleAnswerButtonClick0 = (isCorrect) => {
@@ -129,6 +129,7 @@ const Quiz = () => {
 			setStyle3("#ff69ad")
 		}
 	};
+
 	const nextQuestion = () => {
 		const nextQuestion = currentQuestion + 1;
 
@@ -156,8 +157,6 @@ const Quiz = () => {
 		setStyle3("")
 	}
 
-
-
 	return (
 		<div className='quiz-container'>
 			{/* <button onClick={nextQuestion}>Start Quiz</button> */}
@@ -171,7 +170,6 @@ const Quiz = () => {
 			) :
 				(
 					<>
-
 						<div>
 						</div>
 						<div>
