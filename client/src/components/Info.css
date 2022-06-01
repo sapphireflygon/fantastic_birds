@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .info-container {
@@ -41,13 +41,6 @@
     border-radius: 5px;
 }
 
-
-/* .modal-box {
-    background-color: rgb(239, 239, 239);
-    border-radius: 30px;
-    border: solid 3px;
-} */
-
 .modal-box {
     position: absolute;
     top: 40px;
@@ -58,11 +51,7 @@
     border: hidden;
     background-color: papayawhip;
     padding: 1.5em;
-
-    ;
-    
         /* max-height: calc(100vh - 225px); */
-
     }
 
     .overlay {
@@ -95,7 +84,6 @@
         /* background-color: blue; */
     grid-area: "name";
 }
-
 
 /* .bird-info {
     grid-area: "info";
