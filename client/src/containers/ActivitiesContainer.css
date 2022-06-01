@@ -61,23 +61,37 @@
 }
 
 .tab-home {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(255, 249, 143, 0.796);
     border-top-left-radius: 5em;
 }
 
 .tab-match {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgb(214, 150, 46);
 }
 
 .tab-odd {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(225, 255, 160, 0.827);
     border-bottom-left-radius: 5em;
 }
 
 .tab-quiz {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgba(255, 207, 207, 0.891);
 }
 
-.tab-dnd {
+.tab-dnd {font-family: 'Varela Round', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 1.5em;
     background-color: rgb(246, 172, 146);
 }
