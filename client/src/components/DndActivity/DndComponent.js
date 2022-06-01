@@ -42,7 +42,7 @@ const DndComponent = ({data}) => {
         setDragging(false);
         dragNode.current.removeEventListener('dragend', handleDragEnd)
         dragItem.current = null;
-        dragNode.current = null;
+
     }
 
     // change style of item being dragged while it is being dragged
