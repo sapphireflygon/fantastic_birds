@@ -6,7 +6,7 @@ import React from 'react';
 import './components/OddOneOut/OddOneOutActivity.css'
 import './components/Colouring/Bird.css'
 import InfoContainer from './containers/InfoContainer';
-import headerImage from './components/header-title.svg'
+import headerImage from './components/header-title.png'
 import BackToTopButton from './components/BackToTopButton';
 import ColouringsContainer from './containers/ColouringsContainer';
 import Footer from './components/Footer';
