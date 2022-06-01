@@ -33,7 +33,6 @@ const BirdCard = ({bird}) => {
                     <h4>{bird.name}</h4>
 
                 </div>
-                <div className='modal'>
                 <Modal
                 
                     isOpen={toggleModal}
@@ -42,7 +41,6 @@ const BirdCard = ({bird}) => {
                 >
                     <BirdDetail selected={selected} closeModal={closeModal}/>
                 </Modal>
-                </div>
             </div>
         </div>
     )
