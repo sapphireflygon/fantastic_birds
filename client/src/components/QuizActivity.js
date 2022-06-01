@@ -24,7 +24,7 @@ const Quiz = () => {
 	const questions = [
 		{
 			questionText: 'What do all birds have?',
-			questionImage: <img src={quizPic1} className='question-image' alt='pictures of feather, fur, shell, scales'/>,
+			questionImage: <img src={quizPic1} className='question-image' alt='pictures of feather, fur, shell, scales' />,
 			answerOptions: [
 				{ answerText: 'Fur', isCorrect: false },
 				{ answerText: 'Feathers', isCorrect: true },
@@ -34,7 +34,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Which bird cannot fly?',
-			questionImage: <img src={quizPic2} className='question-image' alt='various birds'/>,
+			questionImage: <img src={quizPic2} className='question-image' alt='various birds' />,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: false },
 				{ answerText: 'Robin', isCorrect: false },
@@ -44,7 +44,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: 'Whose footprints are these?',
-			questionImage: <img src={quizPic3} className='question-image' alt='footprints in sand'/>,
+			questionImage: <img src={quizPic3} className='question-image' alt='footprints in sand' />,
 			answerOptions: [
 				{ answerText: 'Duck', isCorrect: true },
 				{ answerText: 'Peacock', isCorrect: false },
@@ -54,7 +54,7 @@ const Quiz = () => {
 		},
 		{
 			questionText: "The shape of a bird's beak tells us...",
-			questionImage: <img src={quizPic4}  className='question-image' alt='various beaks'/>,
+			questionImage: <img src={quizPic4} className='question-image' alt='various beaks' />,
 			answerOptions: [
 				{ answerText: 'what it sound like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
@@ -150,7 +150,7 @@ const Quiz = () => {
 	return (
 		<div className='quiz-container'>
 
-		
+
 			{/* <button onClick={nextQuestion}>Start Quiz</button> */}
 
 
@@ -162,36 +162,38 @@ const Quiz = () => {
 				</div>
 			) :
 				(
-				<>
-				<div className='question-count'>
-							<span className='quiz-title'>Question {currentQuestion + 1}/{questions.length}</span>
+					<>
+
+						<div>
 						</div>
 						<div className='question-text'>
-							{questions[currentQuestion].questionText}
+							<span>Question {currentQuestion + 1}/{questions.length}</span><br></br>
+							<span className='quiz-title'>
+							{questions[currentQuestion].questionText}</span>
 						</div>
-					<div className='question-section'>
-						<div>
-							{questions[currentQuestion].questionImage}
+						<div className='question-section'>
+							<div>
+								{questions[currentQuestion].questionImage}
+							</div>
 						</div>
-					</div>
-					<div className='answer-section'>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick0(questions[currentQuestion].answerOptions[0].isCorrect)} style={{ backgroundColor: style0 }}>
-							{questions[currentQuestion].answerOptions[0].answerText}</button>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick1(questions[currentQuestion].answerOptions[1].isCorrect)} style={{ backgroundColor: style1 }}>
-							{questions[currentQuestion].answerOptions[1].answerText}</button>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick2(questions[currentQuestion].answerOptions[2].isCorrect)} style={{ backgroundColor: style2 }} >
-							{questions[currentQuestion].answerOptions[2].answerText}</button>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }}>
-							{questions[currentQuestion].answerOptions[3].answerText}
-						</button>
-					</div>
-				
-					<div className="answer-response"> {response} </div>
-					
-					<div className='next-button'>
-					{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>Next</button> : null}
-					</div>
-				</>
+						<div className='answer-section'>
+							<button className='quiz-button' onClick={() => handleAnswerButtonClick0(questions[currentQuestion].answerOptions[0].isCorrect)} style={{ backgroundColor: style0 }}>
+								{questions[currentQuestion].answerOptions[0].answerText}</button>
+							<button className='quiz-button' onClick={() => handleAnswerButtonClick1(questions[currentQuestion].answerOptions[1].isCorrect)} style={{ backgroundColor: style1 }}>
+								{questions[currentQuestion].answerOptions[1].answerText}</button>
+							<button className='quiz-button' onClick={() => handleAnswerButtonClick2(questions[currentQuestion].answerOptions[2].isCorrect)} style={{ backgroundColor: style2 }} >
+								{questions[currentQuestion].answerOptions[2].answerText}</button>
+							<button className='quiz-button' onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }}>
+								{questions[currentQuestion].answerOptions[3].answerText}
+							</button><div className="answer-response"> {response} </div>
+
+							<div className='next-button'>
+								{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>Next</button> : null}
+							</div>
+						</div>
+
+
+					</>
 				)}
 		</div>
 	);
