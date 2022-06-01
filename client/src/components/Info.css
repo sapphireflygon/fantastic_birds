@@ -54,87 +54,60 @@
         /* max-height: calc(100vh - 225px); */
     }
 
-    .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rebeccapurple;
-    }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+}
 
 .modal {
-    /* display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto; */
-
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 5% 95%;
+    grid-template-rows: 15% 85%;
     grid-template-areas:
     "name button"
     "info image"
 }
 
 .modal-title h1{
-    /* grid-area: 1 / 1 / 1 / 2 ;
-    z-index: 1;
     font-size: 4em;
-    margin-top: 1em; */
-        /* background-color: blue; */
     grid-area: "name";
+    justify-items: center;
 }
-
-/* .bird-info {
-    grid-area: "info";
-} */
-
-/* .bird-info-label {
-    grid-area: "info";
-    align-self: end;
-} */
 
 .bird-info-fact {
     grid-area: "info";
-    margin-top: 6em;
-    /* grid-area: 2 / 1 / 2 / 1 ;
-    z-index: 2;
-    align-content: end;
-    margin-left: 5vw;
-    margin-top: 1vh; */
-        /* margin-bottom: 20vh; */
-        /* margin-right: 0.5em; */
-    /* padding-left: 1vw;
-    padding-right: 1vw;  */
-        /* background-color: rgb(255, 0, 204); */
+    margin-top: 2em;
+    margin-left: 1em;
 }
 
 .bird-info-line {
-    font-size: 1.8em;
+    font-size: auto;
     color: rgb(21, 21, 21);
-    /* align-items: center; */
-
 }
 
 .bird-image-container {
+    z-index: 1;
     grid-area: "image";
+    place-self: start;
+    margin-bottom: -500px;
 }
 
 .bird-image{
-    align-self: center;
-    max-width: 100%;
+    max-width: 90%;
     max-height: auto;
 }
 
 .close-modal{
     grid-area: "button";
-    align-content: end;
-    /* background-color: rgb(251, 255, 0); */
-    
+    place-self: end;
 }
 
 .close-modal-btn {
-    padding: 1.5vh 1.5vw;
+    padding: 1.5vh 1.7vw;
     color: rgb(47, 47, 47);
     border-radius: 20px;
     border: rgb(53, 53, 53) solid 3px;
@@ -143,7 +116,7 @@
 }
 
 .close-modal-btn:hover{
-    padding: 1.5vh 1.5vw;
+    padding: 1.5vh 1.7vw;
     border: rgb(53, 53, 53) solid 3px;
     background-color: rgb(255, 81, 81);
     /* color: rgb(239, 239, 239);*/
