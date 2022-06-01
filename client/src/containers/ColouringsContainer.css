@@ -6,7 +6,7 @@
 }
 
 .colour-nav--homepage {
-    height: 70vh;
+    height: 90vh;
     background-color: #c0e1f2;
     padding: 31px;
     width: 80vw;
@@ -15,6 +15,9 @@
     border-bottom-left-radius: 3em;
 }
 
+.palette {
+    position: contain;
+}
 
 
 .colour-nav--tbody {
@@ -43,6 +46,10 @@
     position: relative;
     text-align: center;
     /* border: 3px solid black; */
+}
+
+.colour-in-header {
+    max-width: 50vw;
 }
 
 .tab-color-home{
