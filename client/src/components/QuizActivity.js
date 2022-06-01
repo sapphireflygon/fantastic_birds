@@ -65,14 +65,14 @@ const Quiz = () => {
 			],
 		},
 		{
-		questionText: "All birds...",
-		questionImage: <img src={quizPic5}  className='question-image' alt='birds'/>,
-		answerOptions: [
-			{ answerText: '...can fly', isCorrect: false },
-			{ answerText: '...eat worms', isCorrect: false },
-			{ answerText: '...can swim', isCorrect: false },
-			{ answerText: '...lay eggs', isCorrect: true },
-		],
+			questionText: "All birds...",
+			questionImage: <img src={quizPic5}  className='question-image' alt='birds'/>,
+			answerOptions: [
+				{ answerText: '...can fly', isCorrect: false },
+				{ answerText: '...eat worms', isCorrect: false },
+				{ answerText: '...can swim', isCorrect: false },
+				{ answerText: '...lay eggs', isCorrect: true },
+			],
 	},
 	];
 
@@ -208,9 +208,6 @@ const Quiz = () => {
 							{questions[currentQuestion].answerOptions[2].answerText}</button>
 						<button className='quiz-button' onClick={() => handleAnswerButtonClick3(questions[currentQuestion].answerOptions[3].isCorrect)} style={{ backgroundColor: style3 }}>
 							{questions[currentQuestion].answerOptions[3].answerText}
-						</button>
-						<button className='quiz-button' onClick={() => handleAnswerButtonClick4(questions[currentQuestion].answerOptions[4].isCorrect)} style={{ backgroundColor: style4 }}>
-							{questions[currentQuestion].answerOptions[4].answerText}
 						</button>
 					</div>
 				
