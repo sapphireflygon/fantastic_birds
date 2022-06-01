@@ -69,12 +69,12 @@ const Quiz = () => {
 		if (isCorrect === true) {
 			setScore(score + 1)
 			setResponse("Correct!")
-			setStyle0("green")
+			setStyle0("#59c851")
 		}
 
 		if (isCorrect === false) {
 			setResponse("Try again!")
-			setStyle0("red")
+			setStyle0("#ff69ad")
 		}
 	};
 
@@ -83,12 +83,12 @@ const Quiz = () => {
 		if (isCorrect === true) {
 			setScore(score + 1)
 			setResponse("Correct!")
-			setStyle1("green")
+			setStyle1("#59c851")
 		}
 
 		if (isCorrect === false) {
 			setResponse("Try again!")
-			setStyle1("red")
+			setStyle1("#ff69ad")
 		}
 	};
 
@@ -97,12 +97,12 @@ const Quiz = () => {
 		if (isCorrect === true) {
 			setScore(score + 1)
 			setResponse("Correct!")
-			setStyle2("green")
+			setStyle2("#59c851")
 		}
 
 		if (isCorrect === false) {
 			setResponse("Try again!")
-			setStyle2("red")
+			setStyle2("#ff69ad")
 		}
 	};
 	const handleAnswerButtonClick3 = (isCorrect) => {
@@ -110,12 +110,12 @@ const Quiz = () => {
 		if (isCorrect === true) {
 			setScore(score + 1)
 			setResponse("Correct!")
-			setStyle3("green")
+			setStyle3("#59c851")
 		}
 
 		if (isCorrect === false) {
 			setResponse("Try again!")
-			setStyle3("red")
+			setStyle3("#ff69ad")
 		}
 	};
 	const nextQuestion = () => {
