@@ -63,10 +63,10 @@ const Quiz = () => {
 			questionText: "All birds...",
 			questionImage: <img src={quizPic5} className='question-image' alt='birds' />,
 			answerOptions: [
-				{ answerText: '...can fly', isCorrect: false },
-				{ answerText: '...eat worms', isCorrect: false },
-				{ answerText: '...can swim', isCorrect: false },
-				{ answerText: '...lay eggs', isCorrect: true },
+				{ answerText: 'can fly', isCorrect: false },
+				{ answerText: 'eat worms', isCorrect: false },
+				{ answerText: 'can swim', isCorrect: false },
+				{ answerText: 'lay eggs', isCorrect: true },
 			],
 		}
 
@@ -159,12 +159,14 @@ const Quiz = () => {
 			{showScore ? (
 			<>
 				<div className='robin-jump'>
-					<img src={robinJump}/>
+					<img src={robinJump} alt='robin jumping'/>
 				</div>
 				<div className='show-score'>
 
 				<div className='score-section'>
-					You scored {questions.length} out of {questions.length}
+					You scored {questions.length} 
+					<br/>
+					out of {questions.length}!
 				</div>
 					<br />
 				<button className="quiz-button" onClick={onRestartClick}>Restart quiz</button>
@@ -197,9 +199,13 @@ const Quiz = () => {
 							</button>
 							<div className="answer-response">
 								<div> {response} </div>
-								<div className='next-button'>
-									{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>>>></button> : null}
-								</div>
+									{response === "Correct!" ? 
+									<button className='next-button' onClick={nextQuestion}>
+									
+											<i className = 'fas fa-crow' id='fa-crow'></i>        
+											<i className = 'fas fa-angle-right faa-passing' id='fa-arrow'></i>
+										
+									</button> : null}
 							</div>
 
 						</div>
