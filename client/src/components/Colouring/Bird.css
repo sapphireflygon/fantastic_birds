@@ -55,8 +55,8 @@
 }
 
 #current-color {
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
     display: inline-block;
 }
@@ -81,7 +81,7 @@
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
     width: 80vw;
-    background-color: rgba(241, 181, 51, 0.53);
+    background-color: rgba(103, 214, 255, 0.793);
 }
 
 #owl {
@@ -90,7 +90,7 @@
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
     width: 80vw;
-    background-color: rgb(214, 150, 46);
+    background-color: rgba(89, 243, 233, 0.542);
 }
 #eric {
     padding: 31px;
@@ -98,5 +98,10 @@
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
     width: 80vw;
-    background-color: rgb(245, 176, 79);
+    background-color: rgba(119, 139, 255, 0.683);
+}
+
+.brush {
+    align-items: center;
+    width: 3.5em;
 }

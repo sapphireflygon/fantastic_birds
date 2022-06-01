@@ -1,5 +1,4 @@
 // dummy data to reference (same as seeds.js in server)
-
 import duck_card from "../InfoImages/duck_card.jpg"
 import robin_card from "../InfoImages/robin_card.jpg"
 import owl_card from "../InfoImages/owl_card.jpg"
@@ -29,11 +28,16 @@ const data = [
         cartoonimg: robin_card,
         cartoonimgfeet: robin_mag,
         activity: "Day",
-        food: "Seeds, insects",
+        food: "Seeds, insects, worms",
         fly: true,
-        feettype: "Perching",
+        size: "13-14cm head to tail",
+        wingspan: "20-22cm",
+        weight: "14-21g",
         beak: "Small, long and thin. Perfect for pulling worms from the ground.",
-        feetinfo: "Sharp claws for perching on branches."
+        feettype: "Perching",
+        feetinfo: "Short claws for perching on branches.",
+        nesting: "The nest is made up of grass, moss and dead leaves and covered in hair and wool."
+
     },
     {
         id: 2,
@@ -44,9 +48,12 @@ const data = [
         activity: "Night",
         food: "Mice, insects",
         fly: true,
-        feettype: "Grasping",
+        size: "Medium",
         beak: "Strong, curved and powerful. Good to bite into food.",
-        feetinfo: "Sharp claws for hunting mice."
+        feettype: "Grasping",
+        feetinfo: "Sharp claws for hunting mice.",
+        nesting: ""
+
     },
     {
         id: 3,
@@ -57,9 +64,14 @@ const data = [
         activity: "Day",
         food: "Flower petals, snails, crickets",
         fly: true,
-        feettype: "Perching",
+        size: "",
+        wingspan: "",
+        weight: "",
         beak: "Short, thick, round. Perfect for pecking at ants.",
-        feetinfo: "Sharp claws for scratching the ground."
+        feettype: "Perching",
+        feetinfo: "Sharp claws for scratching the ground.",
+        nesting: ""
+
     },
     {
         id: 4,
@@ -70,9 +82,13 @@ const data = [
         activity: "Day",
         food: "Fish",
         fly: true,
-        feettype: "Webbed",
+        size: "",
+        wingspan: "",
+        weight: "",
         beak: "Huge, long and expandable. Super for scooping up fish.",
+        feettype: "Webbed",
         feetinfo: "Large webbed feet for swimming."
+
     },
     {
         id: 5,
@@ -81,11 +97,15 @@ const data = [
         cartoonimg: duck_card,
         cartoonimgfeet: duck_mag,
         activity: "Day",
-        food: "Water plants",
+        food: "Aquatic plants",
         fly: true,
-        feettype: "Webbed",
+        size: "",
+        wingspan: "",
+        weight: "",
         beak: "Broad, flat and strong. Brilliant for nibbling grass.",
-        feetinfo: "Webbed for swimming and diving."
+        feettype: "Webbed",
+        feetinfo: "Great for swimming and diving",
+        nesting: ""
     },
     {
         id: 6,
@@ -94,11 +114,14 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: penguin_mag,
         activity: "Day",
-        food: "Fish",
+        food: "krill, squid, fish",
         fly: false,
-        feettype: "Webbed",
+        size: "",
+        wingspan: "",
+        weight: "",
         beak: "Long, thin and curved. Great for grabbing fish",
-        feetinfo: "Their position lets the penguin stand up."
+        feettype: "Webbed",
+        nesting: ""
     }
 ]
 

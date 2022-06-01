@@ -10,6 +10,37 @@
     width: 40rem;
 }
 
+.header-image:hover {
+
+    width: 40rem;
+    animation-name: wobb;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 500ms;
+    display: inline-block;
+    transform: translateY(0px);
+}
+
+#act-container {
+    margin-bottom: 10em;
+}
+
+
+@keyframes wobb {
+    0%,
+    100% {
+        transform: translateY(0px)
+    }
+
+    25% {
+        transform: translateY(-10px)
+    }
+
+    75% {
+        transform: translateY(9px)
+    }
+}
+
 .btt-btn {
     position: fixed;
     bottom: 50px;
@@ -19,4 +50,7 @@
     font-size: 50px;
     background-color: paleturquoise;
     border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    color: white;
 }

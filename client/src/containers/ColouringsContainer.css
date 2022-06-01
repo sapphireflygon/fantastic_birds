@@ -7,13 +7,15 @@
 
 .colour-nav--homepage {
     height: 47vw;
-    background-color: rgb(249, 186, 140);
-    margin-top: -20px;
+    background-color: #c0e1f2;
+    padding: 31px;
     width: 80vw;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
 }
+
+
 
 .colour-nav--tbody {
     height: 70vh;
@@ -43,6 +45,12 @@
     /* border: 3px solid black; */
 }
 
+.tab-color-home{
+    background-color: #c0e1f2;
+    border-top-left-radius: 5em;
+    text-align: center;
+}
+
 .tab-robin,
 .tab-owl,
 .tab-eric {
@@ -56,14 +64,14 @@
 }
 
 .tab-robin {
-    background-color: rgba(241, 181, 51, 0.53);
+    background-color: rgba(103, 214, 255, 0.793);
 }
 
 .tab-owl {
-    background-color: rgb(214, 150, 46);
+    background-color: rgba(89, 243, 233, 0.542);;
 }
 
 .tab-eric {
-    background-color: rgb(245, 176, 79);
+    background-color: rgba(119, 139, 255, 0.683);;
     border-bottom-left-radius: 5em;
 }
