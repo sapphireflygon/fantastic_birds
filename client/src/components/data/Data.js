@@ -117,6 +117,7 @@ const data = [
         weight: "",
         beak: "Long, thin and curved. Great for grabbing fish",
         feettype: "Webbed",
+        feetinfo: "Position lets them standup!",
         nesting: ""
     }
 ]
