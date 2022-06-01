@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './Quiz.css';
 import quizPic1 from '../components/QuizActivity/quiz-pic1.jpg'
 import quizPic2 from '../components/QuizActivity/quiz-pic2.jpg'
 import quizPic3 from '../components/QuizActivity/quiz-pic3.jpg'
 import quizPic4 from '../components/QuizActivity/quiz-pic4.jpg'
 import quizPic5 from '../components/QuizActivity/quiz-pic5.jpg'
+import robinJump from '../components/QuizActivity/robin-jump.gif'
 
 const Quiz = () => {
 
+
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-
-
 	const [showScore, setShowScore] = useState(false)
-
 	const [score, setScore] = useState(0)
-
 	const [response, setResponse] = useState("");
-
 	const [style0, setStyle0] = useState("")
 	const [style1, setStyle1] = useState("")
 	const [style2, setStyle2] = useState("")
@@ -159,18 +156,24 @@ const Quiz = () => {
 
 	return (
 		<div className='quiz-container'>
-			{/* <button onClick={nextQuestion}>Start Quiz</button> */}
 			{showScore ? (
-
-				<div className='show-score'>
-					<div className='score-section'>You scored {questions.length} out of {questions.length}</div>
-					<br />
-					<button className="quiz-restart" onClick={onRestartClick}>Restart quiz</button>
+			<>
+				<div className='robin-jump'>
+					<img src={robinJump}/>
 				</div>
+				<div className='show-score'>
+
+				<div className='score-section'>
+					You scored {questions.length} out of {questions.length}
+				</div>
+					<br />
+				<button className="quiz-button" onClick={onRestartClick}>Restart quiz</button>
+				</div>
+			</>
 			) :
 				(
-					<>
-						<div>
+					<>	
+					<div>
 						</div>
 						<div>
 							<div className='quiz-title'> Question {currentQuestion + 1}/{questions.length}</div>
@@ -195,7 +198,7 @@ const Quiz = () => {
 							<div className="answer-response">
 								<div> {response} </div>
 								<div className='next-button'>
-									{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>Next</button> : null}
+									{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>>>></button> : null}
 								</div>
 							</div>
 
