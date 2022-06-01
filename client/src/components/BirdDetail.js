@@ -28,19 +28,19 @@ const BirdDetail = ({selected, closeModal}) => {
                 <h1>{selected.name}</h1>
             </div>
             <div className="close-modal">
-                <button className="close-modal-btn" onClick={closeModal}><b>X</b></button>
+                <button className="close-modal-btn" onClick={closeModal}><b> X </b></button>
             </div>
             <div className='bird-info-fact'>
-                <p><b>Active:</b> {selected.activity}</p>
-                <p><b>Food:</b> {selected.food}</p>
-                <p><b>Can it fly?:</b> {selected.fly ? 'Yes' : 'No'}</p>
-                <p><b>Beak:</b> {selected.beak}</p>
-                <p><b>Feet:</b> {selected.feetinfo}</p>
+                <p className="bird-info-line"><b>Active:</b> {selected.activity}</p>
+                <p className="bird-info-line"><b>Food:</b> {selected.food}</p>
+                <p className="bird-info-line"><b>Can it fly?:</b> {selected.fly ? 'Yes' : 'No'}</p>
+                <p className="bird-info-line"><b>Beak:</b> {selected.beak}</p>
+                <p className="bird-info-line"><b>Feet:</b> {selected.feetinfo}</p>
             </div>
 
 
-            <div className= "bird-image">
-                <ImageToggleOnMouseOver primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
+            <div className= "bird-image-container">
+                <ImageToggleOnMouseOver className="bird-iamge" primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
             </div>
         </div>
     )
