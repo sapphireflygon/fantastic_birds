@@ -12,7 +12,7 @@ const ColouringsContainer = () => {
         <div className="colour-nav--homepage">
                 <img className='colour-in-header' src={colourInHeader}/>
             <h2>Click on a bird's name to get started!</h2>
-            <img src={colouringImg} width="500vw" />
+            <img className='palette' src={colouringImg} width="500vw" />
 
         </div>
     );
