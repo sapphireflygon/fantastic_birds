@@ -206,7 +206,7 @@ const Quiz = () => {
 									<button className='next-button' onClick={nextQuestion}>
 									
 											<i className = 'fas fa-crow' id='fa-crow'></i>        
-											<i className = 'fas fa-angle-right faa-passing' id='fa-arrow'></i>
+											<i className = 'fas fa-angle-right' id='fa-arrow'></i>
 										
 									</button> : null}
 
