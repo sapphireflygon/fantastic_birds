@@ -41,7 +41,7 @@ const BirdDetail = ({selected, closeModal}) => {
 
 
             <div className= "bird-image-container">
-                <ImageToggleOnMouseOver className="modal-iamge" primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
+                <ImageToggleOnMouseOver className="modal-image" primaryImg= {selected.realimg} secondaryImg={selected.cartoonimgfeet} alt="" />
             </div>
         </div>
     )

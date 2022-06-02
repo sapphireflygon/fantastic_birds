@@ -103,9 +103,10 @@
 }
 
 .bird-image{
-    max-width: 90%;
+   max-width: 90%;
     max-height: auto;
 }
+
 
 .close-modal{
     grid-area: "button";
