@@ -37,6 +37,7 @@
     padding: 0.5em;
     border-radius: 5px;
     background-color: blanchedalmond;
+    border: 3px solid rgb(255, 217, 160);
 }
 
 .dnd-group {
@@ -87,8 +88,8 @@
 }
 
 .pelican {
-    background-color: #BCF4FF;
-    border: 2px solid #F78B00;
+    background-color: #73e8ff;
+    border: 2px solid #ffa42e;
 
 }
 

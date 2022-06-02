@@ -25,7 +25,7 @@ const BirdDetail = ({selected, closeModal}) => {
     return(
         <div className="modal">
             <div className="modal-title">
-                <h1>{selected.name}</h1>
+                <h1><b>{selected.name}</b></h1>
             </div>
             <div className="close-modal">
                 <button className="close-modal-btn" onClick={closeModal}><b> X </b></button>
