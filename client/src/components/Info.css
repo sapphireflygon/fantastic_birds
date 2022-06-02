@@ -138,12 +138,12 @@
 }
 
 .bird-image{
-    /* align-items: end; */
     max-width: 80%;
     max-height: auto;
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 
 .close-modal{
     grid-area: 1 / 2 / 1 / 2 ;
