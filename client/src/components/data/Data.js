@@ -51,7 +51,7 @@ const data = [
         size: "Medium",
         beak: "Strong, curved and powerful. Good to bite into food.",
         feettype: "Grasping",
-        feetinfo: "Sharp claws for hunting mice.",
+        feetinfo: "Sharp claws for grasping mice.",
         nesting: ""
 
     },
@@ -93,14 +93,14 @@ const data = [
         cartoonimg: duck_card,
         cartoonimgfeet: duck_mag,
         activity: "Day",
-        food: "Aquatic plants",
+        food: "Water plants",
         fly: true,
         size: "",
         wingspan: "",
         weight: "",
         beak: "Broad, flat and strong. Brilliant for nibbling grass.",
         feettype: "Webbed",
-        feetinfo: "Great for swimming and diving",
+        feetinfo: "Webbed feet for swimming and diving.",
         nesting: ""
     },
     {
