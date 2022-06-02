@@ -208,21 +208,24 @@
 .next-button:hover {
     transform: scale(1.1);
     box-shadow:  20px 15px rgba(0,0,0,0.15);
+    background: #b4ffaf;
     }
 
 #fa-crow {
-    color: #59c851a4
+    color: #59c851e6;
     }
         
 #fa-arrow {
-    color: #59c851a4
+    color: #59c851e6;
+    margin-left: 10px;
         }
 #fa-crow:hover {
-    color: #59c851e6
+    color: #59c851;
 }
         
 #fa-arrow:hover{
-    color: #59c851e6
+    color: #59c851 ;
+    margin-left: 10px;
 }
         
         
