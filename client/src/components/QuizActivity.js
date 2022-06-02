@@ -1,22 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import './Quiz.css';
 import quizPic1 from '../components/QuizActivity/quiz-pic1.jpg'
 import quizPic2 from '../components/QuizActivity/quiz-pic2.jpg'
 import quizPic3 from '../components/QuizActivity/quiz-pic3.jpg'
 import quizPic4 from '../components/QuizActivity/quiz-pic4.jpg'
 import quizPic5 from '../components/QuizActivity/quiz-pic5.jpg'
+import robinJump from '../components/QuizActivity/robin-jump.gif'
 
 const Quiz = () => {
 
+
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-
-
 	const [showScore, setShowScore] = useState(false)
-
 	const [score, setScore] = useState(0)
-
 	const [response, setResponse] = useState("");
-
 	const [style0, setStyle0] = useState("")
 	const [style1, setStyle1] = useState("")
 	const [style2, setStyle2] = useState("")
@@ -56,7 +53,7 @@ const Quiz = () => {
 			questionText: "The shape of a bird's beak tells us...",
 			questionImage: <img src={quizPic4} className='question-image' alt='various beaks' />,
 			answerOptions: [
-				{ answerText: 'what it sound like', isCorrect: false },
+				{ answerText: 'what it sounds like', isCorrect: false },
 				{ answerText: 'whether it can fly', isCorrect: false },
 				{ answerText: 'where it lives', isCorrect: false },
 				{ answerText: 'what food it eats', isCorrect: true },
@@ -66,10 +63,10 @@ const Quiz = () => {
 			questionText: "All birds...",
 			questionImage: <img src={quizPic5} className='question-image' alt='birds' />,
 			answerOptions: [
-				{ answerText: '...can fly', isCorrect: false },
-				{ answerText: '...eat worms', isCorrect: false },
-				{ answerText: '...can swim', isCorrect: false },
-				{ answerText: '...lay eggs', isCorrect: true },
+				{ answerText: 'can fly', isCorrect: false },
+				{ answerText: 'eat worms', isCorrect: false },
+				{ answerText: 'can swim', isCorrect: false },
+				{ answerText: 'lay eggs', isCorrect: true },
 			],
 		}
 
@@ -159,18 +156,28 @@ const Quiz = () => {
 
 	return (
 		<div className='quiz-container'>
-			{/* <button onClick={nextQuestion}>Start Quiz</button> */}
 			{showScore ? (
+			<>
+				<div className='robin-jump'>
+					<img src={robinJump} alt='robin jumping'/>
 
-				<div className='show-score'>
-					<div className='score-section'>You scored {questions.length} out of {questions.length}</div>
-					<br />
-					<button className="quiz-restart" onClick={onRestartClick}>Restart quiz</button>
 				</div>
+				<div className='show-score'>
+
+				<div className='score-section'>
+
+					You scored {questions.length} 
+					<br/>
+					out of {questions.length}!
+				</div>
+					<br />
+				<button className="quiz-button" onClick={onRestartClick}>Restart quiz</button>
+				</div>
+			</>
 			) :
 				(
-					<>
-						<div>
+					<>	
+					<div>
 						</div>
 						<div>
 							<div className='quiz-title'> Question {currentQuestion + 1}/{questions.length}</div>
@@ -194,9 +201,15 @@ const Quiz = () => {
 							</button>
 							<div className="answer-response">
 								<div> {response} </div>
-								<div className='next-button'>
-									{response === "Correct!" ? <button className='quiz-button' onClick={nextQuestion}>Next</button> : null}
-								</div>
+
+									{response === "Correct!" ? 
+									<button className='next-button' onClick={nextQuestion}>
+									
+											<i className = 'fas fa-crow' id='fa-crow'></i>        
+											<i className = 'fas fa-angle-right' id='fa-arrow'></i>
+										
+									</button> : null}
+
 							</div>
 
 						</div>

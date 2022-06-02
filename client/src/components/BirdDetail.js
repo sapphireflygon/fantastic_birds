@@ -33,9 +33,10 @@ const BirdDetail = ({selected, closeModal}) => {
             <div className='bird-info-fact'>
                 <p className="bird-info-line"><b>Active:</b> {selected.activity}</p>
                 <p className="bird-info-line"><b>Food:</b> {selected.food}</p>
-                <p className="bird-info-line"><b>Can it fly?:</b> {selected.fly ? 'Yes' : 'No'}</p>
+                <p className="bird-info-line"><b>Can it fly?</b> {selected.fly ? 'Yes' : 'No'}</p>
                 <p className="bird-info-line"><b>Beak:</b> {selected.beak}</p>
                 <p className="bird-info-line"><b>Feet:</b> {selected.feetinfo}</p>
+                <p className='hover-me'>Hover over the feet to see them close up!</p>
             </div>
 
 

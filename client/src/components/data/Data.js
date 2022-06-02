@@ -35,7 +35,7 @@ const data = [
         weight: "14-21g",
         beak: "Small, long and thin. Perfect for pulling worms from the ground.",
         feettype: "Perching",
-        feetinfo: "Short claws for perching on branches.",
+        feetinfo: "Sharp claws for perching on branches.",
         nesting: "The nest is made up of grass, moss and dead leaves and covered in hair and wool."
 
     },
@@ -51,7 +51,7 @@ const data = [
         size: "Medium",
         beak: "Strong, curved and powerful. Good to bite into food.",
         feettype: "Grasping",
-        feetinfo: "Sharp claws for hunting mice.",
+        feetinfo: "Sharp claws for grasping mice.",
         nesting: ""
 
     },
@@ -93,14 +93,14 @@ const data = [
         cartoonimg: duck_card,
         cartoonimgfeet: duck_mag,
         activity: "Day",
-        food: "Aquatic plants",
+        food: "Water plants",
         fly: true,
         size: "",
         wingspan: "",
         weight: "",
         beak: "Broad, flat and strong. Brilliant for nibbling grass.",
         feettype: "Webbed",
-        feetinfo: "Great for swimming and diving",
+        feetinfo: "Webbed feet for swimming and diving.",
         nesting: ""
     },
     {
@@ -110,14 +110,14 @@ const data = [
         cartoonimg: penguin_card,
         cartoonimgfeet: penguin_mag,
         activity: "Day",
-        food: "krill, squid, fish",
+        food: "Fish, squid, krill",
         fly: false,
         size: "",
         wingspan: "",
         weight: "",
         beak: "Long, thin and curved. Great for grabbing fish",
         feettype: "Webbed",
-        feetinfo: "Position lets them standup!",
+        feetinfo: "The position of their feet lets them stand up.",
         nesting: ""
     }
 ]
